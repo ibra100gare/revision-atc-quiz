@@ -1,0 +1,6 @@
+{
+  "name": "Revision ATC Quiz",
+  "description": "Application de révision pour les examens de Circulation Aérienne (QCM 2014, 2015, 2016, 2023).",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="fr" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Révision ATC - QCM Aéronautique</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter & Playfair Display -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!-- Lucide Icons (via CDN as SVG) -->
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #F9F8F6; color: #3D3D33; }
+        .font-serif { font-family: 'Playfair Display', serif; }
+        .transition-all { transition: all 0.3s ease; }
+        .glass { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
+        .progress-bar { transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1); }
+        
+        /* Custom Colors from Theme */
+        .bg-theme-main { background-color: #F9F8F6; }
+        .bg-theme-accent { background-color: #5A5A40; }
+        .text-theme-accent { color: #5A5A40; }
+        .border-theme-light { border-color: #EBE8E2; }
+        .bg-theme-card { background-color: #FFFFFF; }
+        .bg-theme-stats { background-color: #F2F1ED; }
+
+        /* Animations */
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .animate-fade-in { animation: fadeIn 0.5s ease-out forwards; }
+        .animate-slide-up { animation: slideUp 0.6s ease-out forwards; }
+    </style>
+</head>
+<body class="h-full overflow-x-hidden border-4 md:border-8 border-white">
+
+    <div id="app" class="min-h-screen flex flex-col items-center justify-center p-4 md:p-8">
+        <!-- Home View -->
+        <div id="home-view" class="w-full max-w-xl bg-white rounded-4xl md:rounded-[40px] shadow-sm border border-[#EBE8E2] p-8 md:p-12 text-center space-y-8 animate-fade-in text-balance">
+            <div class="space-y-4">
+                <div class="w-14 h-14 bg-theme-accent rounded-full flex items-center justify-center text-white font-bold mx-auto mb-2 shadow-sm">Q</div>
+                <h1 class="text-3xl md:text-4xl font-serif italic text-[#2D2D24] tracking-tight font-medium">Révision ATC</h1>
+                <p class="text-[#706E65] text-base md:text-lg leading-relaxed px-4 font-normal">Préparez vos examens de circulation aérienne avec les QCM officiels.</p>
+            </div>
+            
+            <div class="space-y-4 text-left max-w-md mx-auto w-full">
+                <label for="filter-select" class="block text-[10px] font-bold uppercase tracking-widest text-[#A19E95] ml-1">Session d'entraînement</label>
+                <div class="relative">
+                    <select id="filter-select" class="w-full p-4 bg-[#F2F1ED] border border-[#EBE8E2] rounded-2xl focus:ring-2 focus:ring-[#5A5A40] outline-none cursor-pointer appearance-none text-[#3D3D33] font-semibold text-sm">
+                        <option value="all">Toutes les années (Mélangées)</option>
+                        <option value="2023">Année 2023</option>
+                        <option value="2016">Année 2016</option>
+                        <option value="2015">Année 2015</option>
+                        <option value="2014">Année 2014</option>
+                        <option value="2013">Année 2013</option>
+                        <option value="2013_2e">Année 2013_2e</option>
+                        <option value="2017">Année 2017</option>
+                    </select>
+                    <div class="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-[#5A5A40]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                    </div>
+                </div>
+                <p id="question-count" class="text-xs text-[#A19E95] ml-1 italic font-medium">Chargement des questions...</p>
+            </div>
+
+            <button onclick="startQuiz()" id="start-btn" class="w-full py-5 bg-theme-accent hover:bg-[#454531] text-white font-bold rounded-full shadow-md transition-all transform active:scale-[0.98] disabled:opacity-50 uppercase tracking-widest text-xs">
+                Commencer la session
+            </button>
+        </div>
+
+        <!-- Quiz View -->
+        <div id="quiz-view" class="hidden w-full max-w-5xl grid grid-cols-1 lg:grid-cols-12 gap-6 animate-fade-in">
+            <!-- Sidebar (Progression) -->
+            <aside class="lg:col-span-4 space-y-4 md:space-y-6 order-2 lg:order-1">
+                <div class="bg-white p-6 md:p-8 rounded-[28px] md:rounded-[32px] shadow-sm border border-[#EBE8E2]">
+                    <h2 class="text-[10px] font-bold uppercase tracking-widest text-[#A19E95] mb-4">Progression</h2>
+                    <div class="flex items-end gap-2 mb-4">
+                        <span id="quiz-current-num" class="text-4xl md:text-5xl font-serif text-theme-accent font-medium">1</span>
+                        <span id="quiz-total-num" class="text-[#A19E95] text-lg md:text-xl mb-1 font-medium">/ 40</span>
+                    </div>
+                    <div class="h-2 w-full bg-[#E8E6E1] rounded-full overflow-hidden shadow-inner">
+                        <div id="quiz-progress-bar" class="h-full bg-theme-accent progress-bar w-0"></div>
+                    </div>
+                </div>
+
+                <div class="bg-theme-stats p-6 md:p-8 rounded-[28px] md:rounded-[32px] border border-[#EBE8E2] flex lg:flex-col justify-between items-center lg:items-stretch gap-4">
+                    <div class="flex flex-col">
+                        <h2 class="text-[10px] font-bold uppercase tracking-widest text-[#A19E95] mb-2 lg:mb-4">Précision</h2>
+                        <span id="live-accuracy" class="font-mono text-xl lg:text-2xl text-theme-accent font-bold">100%</span>
+                    </div>
+                    <div class="lg:border-t lg:border-[#EBE8E2] lg:pt-6 flex flex-col lg:items-start items-end">
+                        <h2 class="text-[10px] font-bold uppercase tracking-widest text-[#A19E95] mb-2">Source</h2>
+                        <span id="question-year-badge" class="px-3 py-1 bg-white text-theme-accent border border-[#EBE8E2] rounded-full text-[10px] font-bold uppercase tracking-widest">2023</span>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Question Area -->
+            <section class="lg:col-span-8 bg-white rounded-[32px] md:rounded-[40px] shadow-md border border-[#EBE8E2] p-6 md:p-10 flex flex-col min-h-[450px] order-1 lg:order-2">
+                <div class="flex-grow space-y-8">
+                    <h2 id="question-text" class="text-2xl md:text-3xl font-serif leading-snug text-[#2D2D24] font-medium text-balance">Chargement de la question...</h2>
+                    
+                    <div id="options-container" class="grid grid-cols-1 gap-3 md:gap-4">
+                        <!-- Options buttons will be injected here -->
+                    </div>
+                </div>
+
+                <!-- Footer / Next Action -->
+                <div id="quiz-footer" class="mt-8 pt-8 border-t border-[#EBE8E2] flex justify-end hidden">
+                    <button onclick="nextQuestion()" class="w-full sm:w-auto px-10 py-5 bg-theme-accent hover:bg-[#454531] text-white font-bold rounded-full transition-all flex items-center justify-center gap-3 uppercase tracking-widest text-xs shadow-sm active:scale-95">
+                        Suivante
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    </button>
+                </div>
+            </section>
+        </div>
+
+        <!-- Results View -->
+        <div id="results-view" class="hidden w-full max-w-2xl space-y-8 animate-slide-up">
+            <div class="bg-white rounded-[32px] md:rounded-[40px] shadow-xl border border-[#EBE8E2] p-8 md:p-12 text-center space-y-8">
+                <div>
+                    <div id="result-pill" class="inline-block px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-[0.2em] bg-green-50 text-green-700 border border-green-100 mb-6">Excellent !</div>
+                    <h2 class="text-6xl md:text-7xl font-serif text-[#2D2D24] font-medium" id="final-score">28 / 40</h2>
+                    <p id="result-message" class="text-[#706E65] text-base md:text-lg mt-4 max-w-xs mx-auto font-normal">Vous avez un excellent niveau de connaissances.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-md mx-auto">
+                    <button onclick="location.reload()" class="py-5 px-8 bg-[#F2F1ED] hover:bg-[#EBE8E2] text-[#5A5A40] font-bold rounded-full transition-all uppercase tracking-widest text-[10px]">
+                        Sessions
+                    </button>
+                    <button onclick="restartQuiz()" class="py-5 px-8 bg-theme-accent hover:bg-[#454531] text-white font-bold rounded-full shadow-sm transition-all uppercase tracking-widest text-[10px]">
+                        Recommencer
+                    </button>
+                </div>
+            </div>
+
+            <div id="failed-questions-container" class="space-y-6">
+                <h3 class="text-[10px] font-bold uppercase tracking-widest text-[#A19E95] px-4">Récapitulatif des erreurs</h3>
+                <!-- Failed questions cards here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let allQuestionsData = {};
+        let currentQuizQuestions = [];
+        let currentIndex = 0;
+        let score = 0;
+        let answeredTotal = 0;
+        let failedQuestions = [];
+        let isAnswered = false;
+
+        // Fetch questions
+        async function fetchQuestions() {
+            try {
+                const response = await fetch('questions.json');
+                allQuestionsData = await response.json();
+                updateQuestionCount();
+                document.getElementById('filter-select').addEventListener('change', updateQuestionCount);
+            } catch (error) {
+                console.error("Erreur lors du chargement des questions:", error);
+                document.getElementById('question-count').innerText = "Erreur de chargement.";
+            }
+        }
+
+        function getFilteredQuestions() {
+            const filter = document.getElementById('filter-select').value;
+            let filtered = [];
+            if (filter === 'all') {
+                Object.keys(allQuestionsData).forEach(year => {
+                    allQuestionsData[year].forEach(q => filtered.push({...q, year}));
+                });
+                filtered.sort(() => Math.random() - 0.5);
+            } else {
+                filtered = [...allQuestionsData[filter]].map(q => ({...q, year: filter}));
+                filtered.sort(() => Math.random() - 0.5);
+            }
+            return filtered;
+        }
+
+        function updateQuestionCount() {
+            const questions = getFilteredQuestions();
+            document.getElementById('question-count').innerText = `${questions.length} questions disponibles pour cette session`;
+        }
+
+        function startQuiz() {
+            currentQuizQuestions = getFilteredQuestions();
+            if (currentQuizQuestions.length === 0) return;
+            
+            currentIndex = 0;
+            score = 0;
+            answeredTotal = 0;
+            failedQuestions = [];
+            
+            document.getElementById('home-view').classList.add('hidden');
+            document.getElementById('results-view').classList.add('hidden');
+            document.getElementById('quiz-view').classList.remove('hidden');
+            showQuestion();
+        }
+
+        function showQuestion() {
+            isAnswered = false;
+            const question = currentQuizQuestions[currentIndex];
+            document.getElementById('quiz-footer').classList.add('hidden');
+            
+            // Update Progress
+            const total = currentQuizQuestions.length;
+            const current = currentIndex + 1;
+            const percentage = Math.round((currentIndex / total) * 100);
+            
+            document.getElementById('quiz-current-num').innerText = current;
+            document.getElementById('quiz-total-num').innerText = `/ ${total}`;
+            document.getElementById('quiz-progress-bar').style.width = `${percentage}%`;
+            document.getElementById('question-year-badge').innerText = question.year;
+            
+            // Accuracy
+            const accuracy = answeredTotal === 0 ? 100 : Math.round((score / answeredTotal) * 100);
+            document.getElementById('live-accuracy').innerText = `${accuracy}%`;
+
+            // Question Text
+            document.getElementById('question-text').innerText = question.question;
+
+            // Options
+            const container = document.getElementById('options-container');
+            container.innerHTML = '';
+            
+            Object.keys(question.options).forEach(key => {
+                const btn = document.createElement('button');
+                btn.className = "group relative p-5 md:p-6 text-left border-2 border-[#EBE8E2] rounded-2xl transition-all bg-white hover:border-[#5A5A40] focus:outline-none";
+                btn.innerHTML = `
+                    <span class="absolute top-4 right-4 w-6 h-6 border border-[#EBE8E2] rounded-full flex items-center justify-center text-[10px] font-bold group-hover:border-[#5A5A40] group-hover:text-[#5A5A40] transition-colors">${key.toUpperCase()}</span>
+                    <p class="text-base md:text-lg text-[#5A5A47] pr-8 font-semibold leading-snug">${question.options[key]}</p>
+                `;
+                btn.onclick = () => selectOption(key, btn);
+                container.appendChild(btn);
+            });
+        }
+
+        function selectOption(selectedKey, btnElement) {
+            if (isAnswered) return;
+            isAnswered = true;
+            answeredTotal++;
+
+            const question = currentQuizQuestions[currentIndex];
+            const correctKey = question.reponse_correcte.toUpperCase();
+            const optionButtons = document.getElementById('options-container').children;
+
+            if (selectedKey.toUpperCase() === correctKey) {
+                score++;
+                btnElement.className = "group relative p-6 text-left border-2 border-[#405A40] bg-[#F4FAF4] rounded-2xl transition-all ring-4 ring-[#405A40]/5";
+                btnElement.innerHTML += `<span class="mt-2 block text-[10px] text-[#405A40] font-bold uppercase tracking-widest">Bonne réponse</span>`;
+                const circle = btnElement.querySelector('span');
+                circle.className = "absolute top-4 right-4 w-6 h-6 bg-[#405A40] text-white rounded-full flex items-center justify-center text-[10px] font-bold";
+            } else {
+                btnElement.className = "group relative p-6 text-left border-2 border-[#7A4040] bg-[#FAF4F4] rounded-2xl transition-all";
+                btnElement.innerHTML += `<span class="mt-2 block text-[10px] text-[#7A4040] font-bold uppercase tracking-widest">Votre choix (Incorrect)</span>`;
+                const circle = btnElement.querySelector('span');
+                circle.className = "absolute top-4 right-4 w-6 h-6 bg-[#7A4040] text-white rounded-full flex items-center justify-center text-[10px] font-bold";
+                
+                failedQuestions.push({...question, userChoice: selectedKey});
+                
+                // Show correct answer
+                for (let btn of optionButtons) {
+                    const span = btn.querySelector('span');
+                    if (span && span.innerText === correctKey && btn !== btnElement) {
+                        btn.className = "group relative p-6 text-left border-2 border-[#405A40] bg-[#F4FAF4] rounded-2xl transition-all opacity-80 scale-[0.98]";
+                        btn.innerHTML += `<span class="mt-2 block text-[10px] text-[#405A40] font-bold uppercase tracking-widest">Réponse attendue</span>`;
+                    }
+                }
+            }
+
+            document.getElementById('quiz-footer').classList.remove('hidden');
+        }
+
+        function nextQuestion() {
+            currentIndex++;
+            if (currentIndex < currentQuizQuestions.length) {
+                showQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        function showResults() {
+            document.getElementById('quiz-view').classList.add('hidden');
+            document.getElementById('results-view').classList.remove('hidden');
+            
+            const total = currentQuizQuestions.length;
+            const percentage = Math.round((score / total) * 100);
+            document.getElementById('final-score').innerText = `${score} / ${total}`;
+
+            const pill = document.getElementById('result-pill');
+            const message = document.getElementById('result-message');
+            
+            if (percentage >= 90) {
+                pill.innerText = "Parfait !";
+                pill.className = "inline-block px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-[0.2em] bg-stone-100 text-stone-600 border border-stone-200 mb-6";
+                message.innerText = "C'est un sans-faute ou presque. Félicitations !";
+            } else if (percentage >= 70) {
+                pill.innerText = "Bien joué !";
+                pill.className = "inline-block px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-[0.2em] bg-green-50 text-green-700 border border-green-100 mb-6";
+                message.innerText = "Vous maîtrisez bien le sujet, continuez comme ça.";
+            } else if (percentage >= 50) {
+                pill.innerText = "Pas mal";
+                pill.className = "inline-block px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-[0.2em] bg-blue-50 text-blue-700 border border-blue-100 mb-6";
+                message.innerText = "Quelques révisions supplémentaires sont nécessaires.";
+            } else {
+                pill.innerText = "À revoir";
+                pill.className = "inline-block px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-[0.2em] bg-red-50 text-red-700 border border-red-100 mb-6";
+                message.innerText = "N'hésitez pas à refaire le test pour vous améliorer.";
+            }
+
+            // Failed questions recap
+            const failedContainer = document.getElementById('failed-questions-container');
+            failedContainer.innerHTML = '<h3 class="text-xs font-bold uppercase tracking-widest text-[#A19E95] px-4">Récapitulatif des erreurs</h3>';
+            if (failedQuestions.length === 0) {
+                failedContainer.innerHTML += '<div class="p-12 bg-white rounded-[32px] text-center text-[#A19E95] font-serif italic border border-[#EBE8E2]">Aucune erreur !</div>';
+            } else {
+                failedQuestions.forEach(q => {
+                    const card = document.createElement('div');
+                    card.className = "bg-white p-10 rounded-[40px] shadow-sm border border-[#EBE8E2] space-y-6";
+                    card.innerHTML = `
+                        <div class="flex justify-between items-start gap-4">
+                            <h4 class="text-xl font-serif text-[#2D2D24] leading-snug">${q.question}</h4>
+                            <span class="px-3 py-1 bg-[#F9F8F6] text-theme-accent border border-[#EBE8E2] rounded-full text-[10px] font-bold uppercase tracking-widest shrink-0">${q.year}</span>
+                        </div>
+                        <div class="grid grid-cols-1 gap-3">
+                            <div class="p-5 border-2 border-[#7A4040] bg-[#FAF4F4] rounded-2xl relative">
+                                <span class="absolute top-4 right-4 w-5 h-5 bg-[#7A4040] text-white rounded-full flex items-center justify-center text-[8px] font-bold">${q.userChoice.toUpperCase()}</span>
+                                <p class="text-sm text-[#3D3333]"><span class="font-bold opacity-50 block mb-1 uppercase tracking-tighter text-[10px]">Votre choix</span> ${q.options[q.userChoice]}</p>
+                            </div>
+                            <div class="p-5 border-2 border-[#405A40] bg-[#F4FAF4] rounded-2xl relative">
+                                <span class="absolute top-4 right-4 w-5 h-5 bg-[#405A40] text-white rounded-full flex items-center justify-center text-[8px] font-bold">${q.reponse_correcte.toUpperCase()}</span>
+                                <p class="text-sm text-[#2D3D2D]"><span class="font-bold opacity-50 block mb-1 uppercase tracking-tighter text-[10px]">Bonne réponse</span> ${q.options[q.reponse_correcte]}</p>
+                            </div>
+                        </div>
+                    `;
+                    failedContainer.appendChild(card);
+                });
+            }
+        }
+
+        function restartQuiz() {
+            document.getElementById('results-view').classList.add('hidden');
+            startQuiz();
+        }
+
+        // Initialize
+        fetchQuestions();
+    </script>
+</body>
+</html>
