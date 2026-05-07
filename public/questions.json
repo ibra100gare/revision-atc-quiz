@@ -185,7 +185,7 @@
         "C": "pour les vols IFR et VFR devant sortir de la CTR",
         "D": "uniquement pour les vols en espace aérien contrôlé"
       },
-      "reponse_correcte": "C"
+      "reponse_correcte": "d"
     },
     {
       "id": 18,
@@ -196,15 +196,15 @@
         "C": "Lisible par instants",
         "D": "Lisible mais brouillé"
       },
-      "reponse_correcte": "A"
+      "reponse_correcte": "C"
     },
     {
       "id": 19,
       "question": "Dans le cas d’une navigation à l’estime, quand peut-on considérer que la séparation latérale réglementaire est assurée entre deux aéronefs ?",
       "options": {
-        "A": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent de 45 degrés au plus, que l’un des aéronefs se trouve à une distance de 15 NM ou plus du point d’intersection des routes...",
-        "B": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d’au moins 30 degrés, que l’un des aéronefs se trouve à une distance de 15 NM ou plus du point d’intersection des routes...",
-        "C": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d’au moins 25 degrés, que l’un des aéronefs se trouve à une distance de 15 NM ou plus du point d’intersection des routes...",
+        "A": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent de 45 degrés au plus, que l’un des aéronefs se trouve à une distance de 15 NM ou plus du point d’intersection des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point",
+        "B": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d’au moins 30 degrés, que l’un des aéronefs se trouve à une distance de 15 NM ou plus du point d’intersection des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point ",
+        "C": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d’au moins 25 degrés, que l’un des aéronefs se trouve à une distance de 15 NM ou plus du point d’intersection des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point ;",
         "D": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d’au moins 45 degrés, que l’un des aéronefs se trouve à une distance de 15 NM ou plus du point d’intersection des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point"
       },
       "reponse_correcte": "D"
@@ -218,7 +218,7 @@
         "C": "la distance verticale entre un point donné et le niveau moyen de la mer",
         "D": "la distance verticale entre un point donné et 1013,2 hPa"
       },
-      "reponse_correcte": "A"
+      "reponse_correcte": "D"
     },
     {
       "id": 21,
@@ -251,7 +251,7 @@
         "C": "se positionner",
         "D": "s'orienter et de se positionner"
       },
-      "reponse_correcte": "D"
+      "reponse_correcte": "B"
     },
     {
       "id": 24,
@@ -279,10 +279,10 @@
       "id": 26,
       "question": "Lorsqu'une clairance VMC est accordée :",
       "options": {
-        "A": "la séparation entre cet aéronef et les autres n'est plus assurée par le contrôleur",
-        "B": "le pilote est responsable de la séparation avec les autres aéronefs",
-        "C": "le contrôleur est responsable de la séparation entre cet aéronef et les autres",
-        "D": "le contrôleur doit fournir l'information de trafic et suggestion d'évitement en classe D"
+        "A": "la séparation entre cet aéronef et les autres n'est plus assurée par le contrôleur ; - le contrôleur doit être prêt à délivrer une clairance complémentaire si l'aéronef signale qu'il rencontre des conditions météorologiques empêchant de poursuivre le vol en VMC jusqu'à la limite de la clairance ; - le contrôleur doit en espace aérien de classe D fournir l’information de trafic à cet aéronef ;",
+        "B": "le pilote est responsable de la séparation avec les autres aéronefs - le contrôleur doit être prêt à délivrer une clairance complémentaire si l'aéronef signale qu'il rencontre des conditions météorologiques empêchant de poursuivre le vol en VMC jusqu'à la limite de la clairance ; - le contrôleur doit, quel que soit l'espace dans lequel se trouve cet aéronef, lui fournir des renseignements sur la circulation essentielle ;",
+        "C": "le contrôleur est responsable de la séparation entre cet aéronef et les autres - le contrôleur doit être prêt à délivrer une clairance complémentaire si l'aéronef signale qu'il rencontre des conditions météorologiques empêchant de poursuivre le vol en VMC jusqu'à la limite de la clairance - le contrôleur doit en espace aérien de classe D fournir l'information de trafic et suggestion d'évitement à cet aéronef ;",
+        "D": "le contrôleur est responsable de la séparation entre cet aéronef et les autres - le contrôleur doit être prêt à délivrer une clairance complémentaire si l'aéronef signale qu'il rencontre des conditions météorologiques empêchant de poursuivre le vol en IMC jusqu'à la limite de la clairance ; - le contrôleur doit en espace aérien de classe D fournir l'information de trafic et suggestion d'évitement à cet aéronef."
       },
       "reponse_correcte": "B"
     },
@@ -310,7 +310,7 @@
     },
     {
       "id": 29,
-      "question": "Un aéronef homologué RVSM au FL330 évolue en espace aérien RVSM sur les tronçons de route AB (Rm 170°), BC (Rm 215°) et CD (Rm 265°). Il doit monter ou descendre à un FL pair :",
+      "question": "Un aéronef homologué RVSM au FL330 évolue en espace aérien RVSM sur les tronçons de route AB (Rm 170°), BC (Rm 215°) et CD (Rm 265°). Il doit monter ou descendre à un FL pair (proposez un niveau de vol) :",
       "options": {
         "A": "au point C",
         "B": "sur le tronçon AB",
@@ -350,7 +350,7 @@
         "C": "de classe A",
         "D": "à service consultatif"
       },
-      "reponse_correcte": "B"
+      "reponse_correcte": "C"
     },
     {
       "id": 33,
@@ -405,16 +405,16 @@
         "C": "l’altitude du point le plus élevé de l’aire d’atterrissage",
         "D": "l’altitude à laquelle ou au-dessous de laquelle la position est exprimée en altitude"
       },
-      "reponse_correcte": "C"
+      "reponse_correcte": "A"
     },
     {
       "id": 38,
       "question": "La clairance de séparation à vue est :",
       "options": {
-        "A": "une clairance complémentaire accordée à plusieurs aéronefs en vol contrôlé au-dessus du FL100...",
+        "A": "une clairance complémentaire accordée à plusieurs aéronefs en vol contrôlé au- dessus du FL100 leur permettant de s'affranchir des espacements réglementaires vis à vis des autres aéronefs contrôlés et d'assurer visuellement leur propre séparation, les uns par rapport aux autres ",
         "B": "une clairance complémentaire accordée à un aéronef en vol contrôlé en dessous du FL100 lui permettant de s'affranchir des espacements réglementaires vis à vis d'un seul autre aéronef contrôlé et d'assurer visuellement sa propre séparation par rapport à celui-ci",
-        "C": "une clairance complémentaire accordée à un aéronef en vol contrôlé en dessous du FL100 lui permettant d'assurer sa séparation par rapport à tous les autres",
-        "D": "une clairance complémentaire accordée à un aéronef en vol VFR contrôlé en dessous du FL100"
+        "C": "une clairance complémentaire accordée à un aéronef en vol contrôlé en dessous du FL100 lui permettant de s'affranchir des espacements réglementaires vis à vis des autres aéronefs contrôlés et d'assurer visuellement sa propre séparation par rapport à ceux-ci",
+        "D": "uune clairance complémentaire accordée à un aéronef en vol VFR contrôlé en dessous du FL100 lui permettant de s'affranchir des espacements réglementaires vis à vis d'un seul autre aéronef contrôlé et d'assurer visuellement sa propre séparation par rapport à celui-ci."
       },
       "reponse_correcte": "B"
     },
@@ -438,7 +438,7 @@
         "C": "2000 ft",
         "D": "dépend de l’homologation RVSM"
       },
-      "reponse_correcte": "A"
+      "reponse_correcte": "C"
     },
     {
       "id": 41,
@@ -488,12 +488,12 @@
       "id": 45,
       "question": "Une limite d’autorisation est :",
       "options": {
-        "A": "Le point à partir duquel une autorisation est valable",
-        "B": "Le point à partir duquel une autorisation entre en vigueur",
+        "A": "Le point à partir duquel une autorisation du contrôle de la circulation aérienne est valable",
+        "B": "Le point à partir duquel une autorisation du contrôle de la circulation aérienne entre en vigueur;",
         "C": "Le point jusqu’où est valable une autorisation du contrôle de la circulation aérienne accordée à un aéronef",
-        "D": "Le point jusqu’où une autorisation n’est pas valable"
+        "D": "Le point jusqu’où une autorisation du contrôle de la circulation aérienne n’est pas valable"
       },
-      "reponse_correcte": "C"
+      "reponse_correcte": "D"
     },
     {
       "id": 46,
@@ -504,7 +504,7 @@
         "C": "Localizer",
         "D": "Le Glide"
       },
-      "reponse_correcte": "A"
+      "reponse_correcte": "B"
     },
     {
       "id": 47,
@@ -526,37 +526,37 @@
         "C": "15 minutes",
         "D": "20 minutes"
       },
-      "reponse_correcte": "C"
+      "reponse_correcte": "A"
     },
     {
       "id": 49,
       "question": "Les limites des catégories de turbulence de sillage sont :",
       "options": {
-        "A": "Moyen : de 7,5 tonnes à 136 tonnes",
-        "B": "Moyen : de 7,5 tonnes à 100 tonnes",
+        "A": "Faible tonnage : moins de 7,5 tonnes- Moyen : de 7,5 tonnes à 136 tonnes- Gros porteur : plus de 136 tonnes",
+        "B": "Faible tonnage : moins de 7,5 tonnes- Moyen : de 7,5 tonnes à 100 tonnes Gros porteur : plus de 100 tonnes ",
         "C": "Faible tonnage : moins de 7 tonnes - Moyen tonnage : de 7 tonnes à 136 tonnes - Gros porteur : plus de 136 tonnes",
-        "D": "Moyen : de 7 tonnes à 100 tonnes"
+        "D": "Faible tonnage : moins de 7 tonnes- Moyen : de 7 tonnes à 100 tonnes Gros porteur : plus de 100 tonnes."
       },
       "reponse_correcte": "C"
     },
     {
       "id": 50,
-      "question": "Un aéronef arrive sur la balise d’attente au QDM 130. Circuit orienté au 270°, virage à droite. Type d’entrée :",
+      "question": "Un aéronef arrive sur la balise d’attente au QDM 130. Le circuit d’attente est orienté au 270° magnétique, virage à droite. Quel type d’entrée dans l’attente devra-t-il effectuer:",
       "options": {
         "A": "une entrée parallèle",
         "B": "une entrée directe",
         "C": "une entrée décalée",
         "D": "une entrée inverse"
       },
-      "reponse_correcte": "A"
+      "reponse_correcte": "B"
     },
     {
       "id": 51,
       "question": "Une phase d’incertitude (INCERFA) est :",
       "options": {
-        "A": "Situation de danger grave et imminent",
-        "B": "Situation où on peut craindre pour la sécurité",
-        "C": "Situation où l'aéronef est en danger",
+        "A": "Situation dans laquelle il y a tout lieu de penser qu'un aéronef et ses occupants sont menacés d'un danger grave et imminent et qu'ils ont besoin d'un secours immédiat",
+        "B": "Situation dans laquelle on peut craindre pour la sécurité d'un aéronef et de ses occupants ",
+        "C": "Situation dans laquelle il y a tout lieu de penser qu'un aéronef est en danger ",
         "D": "Situation dans laquelle il y a lieu de douter de la sécurité d'un aéronef et de ses occupants"
       },
       "reponse_correcte": "D"
@@ -598,21 +598,21 @@
       "id": 55,
       "question": "Le verrou de piste est :",
       "options": {
-        "A": "Le point de clairance d'atterrissage",
-        "B": "Le point de remise des gaz",
-        "C": "Le point d'alignement autorisé",
+        "A": "Le point à partir duquel une clearance d’atterrissage est délivrée à un aéronef à l’arrivée",
+        "B": "Le point à partir duquel un aéronef à l’arrivée doit remettre les gaz s’il ne voit pas la pist ",
+        "C": "Le point à partir duquel un aéronef au départ est autorisé à s’aligner",
         "D": "Le point d’approche finale à partir duquel un aéronef au départ ou tout autre mobile ne peut plus être autorisé à pénétrer la piste"
       },
-      "reponse_correcte": "D"
+      "reponse_correcte": "A"
     },
     {
       "id": 56,
       "question": "En cas de réception d’un avis de résolution (RA) TCAS, un pilote :",
       "options": {
-        "A": "vérifie l’exactitude de la RA",
-        "B": "demande l’autorisation ATC",
+        "A": "vérifie l’exactitude de la RA avant de l’appliquer ",
+        "B": "demande l’autorisation de l’organisme de contrôle avant d’appliquer la RA",
         "C": "applique immédiatement la RA sans s’en référer à l’organisme de contrôle",
-        "D": "ne l'applique qu'en espace non contrôlé"
+        "D": "n’applique la RA que dans un espace aérien non contrôlé"
       },
       "reponse_correcte": "C"
     },
@@ -620,32 +620,32 @@
       "id": 57,
       "question": "Une route RNAV est :",
       "options": {
-        "A": "Une route à l'estime",
-        "B": "Un itinéraire entre deux VOR",
-        "C": "Une route pour vols longs courriers",
-        "D": "Une route ATS établie à l’usage des aéronefs qui peuvent utiliser la navigation de surface"
+        "A": "Une route ATS établie à l’usage des aéronefs qui utilisent la navigation à l’estime",
+        "B": "Un itinéraire prédéterminé entre deux VOR distant de moins de 200 NM dans un espace aérien contrôlé",
+        "C": "Une route ATS établie à l’usage des aéronefs longs courriers qui utilisent la navigation satellitaire",
+        "D": "Une route ATS établie à l’usage des aéronefs qui peuvent utiliser la navigation de surface."
       },
       "reponse_correcte": "D"
     },
     {
       "id": 58,
-      "question": "En espace RVSM et sous respect de la règle semi-circulaire :",
+      "question": "En espace aérien RVSM et sous respect de la règle semi-circulaire :",
       "options": {
-        "A": "tous les niveaux sont utilisables",
-        "B": "FL310, FL350, FL390 ne sont pas utilisables",
-        "C": "FL310, FL350, FL390 sont utilisables seulement Est/Ouest",
+        "A": "tous les niveaux de croisière sont utilisables",
+        "B": "les niveaux de vol FL310, FL350, et FL390 ne sont pas utilisables",
+        "C": "les FL310, FL350, et FL390 sont toujours utilisables dans le sens Est/Ouest ",
         "D": "les FL310, FL350, et FL390 sont utilisables dans les deux sens"
       },
-      "reponse_correcte": "D"
+      "reponse_correcte": "A"
     },
     {
       "id": 59,
       "question": "Deux aéronefs sont espacés s'il existe entre eux :",
       "options": {
-        "A": "un intervalle en distance ou niveau",
+        "A": "un intervalle exprimé en distance horizontale, en différence de niveaux ou en temps",
         "B": "un intervalle exprimé en distance horizontale, en différence de niveaux ou en temps de vol supérieur ou égal à un minimum spécifié",
-        "C": "un intervalle avec clairance de séparation à vue",
-        "D": "un intervalle quand ils sont en vue"
+        "C": "un intervalle exprimé en distance horizontale, en différence de niveaux ou en temps de vol et que l'un des aéronefs ait reçu une clairance de séparation à vue",
+        "D": "n intervalle exprimé en distance horizontale, en différence de niveaux ou en temps de vol et que les deux aéronefs sont en vue l’un de l’autre"
       },
       "reponse_correcte": "B"
     },
@@ -664,12 +664,12 @@
       "id": 61,
       "question": "Un signal d’urgence se définit comme un :",
       "options": {
-        "A": "Signal de message très urgent pour la sécurité d'un avion",
-        "B": "Signal de détournement violent",
-        "C": "Signal de danger grave et imminent",
+        "A": "Signal signifiant que la station appelante a un message très urgent à transmettre concernant la sécurité d'un aéronef",
+        "B": "Signal émanant d'un aéronef et indiquant que ce dernier est sous la menace d'un détournement violent ",
+        "C": "Signal émanant d'un aéronef et indiquant que ce dernier est sous la menace d'un danger grave et imminent et demande une assistance immédiate ",
         "D": "Signal signifiant qu’un aéronef a un message très urgent à transmettre concernant sa sécurité"
       },
-      "reponse_correcte": "D"
+      "reponse_correcte": "A"
     },
     {
       "id": 62,
@@ -684,7 +684,7 @@
     },
     {
       "id": 63,
-      "question": "Avion autorisé au FL120, altitude de transition 4000 pieds. Passage au calage standard en croisant :",
+      "question": "Un avion est autorisé au FL120 dès le décollage d’un aérodrome où l’altitude de transition est de 4000 pieds, il doit passer du calage QNH au calage standard en croisant",
       "options": {
         "A": "3900 pieds QNH",
         "B": "4100 pieds QNH",
@@ -697,27 +697,27 @@
       "id": 64,
       "question": "L’altitude de franchissement d’obstacles (OCA) :",
       "options": {
-        "A": "altitude au-dessus de l'obstacle à côté de la piste",
-        "B": "altitude au-dessus de l'obstacle au QFU opposé",
+        "A": "altitude la plus basse au-dessus de l’obstacle le plus élevé situé à côté de la piste, utilisée pour respecter les critères de franchissement d’obstacles ",
+        "B": "altitude la plus basse au-dessus de l’obstacle le plus élevé situé au QFU opposé de la piste en service, utilisée pour respecter les critères de franchissement d’obstacles ",
         "C": "altitude la plus basse au-dessus du seuil de piste en cause ou au-dessus de l’aérodrome utilisée pour respecter les critères de franchissement d’obstacles",
-        "D": "altitude au-dessous de l'obstacle à côté"
+        "D": "altitude la plus basse au-dessous de l’obstacle le plus élevé situé à côté de la piste, utilisée pour respecter les critères de franchissement d’obstacles"
       },
-      "reponse_correcte": "C"
+      "reponse_correcte": "A"
     },
     {
       "id": 65,
-      "question": "Dans un espace de classe G, la séparation longitudinale :",
+      "question": "Dans un espace aérien de classe G :",
       "options": {
-        "A": "minimale est de 20 minutes",
-        "B": "minimale est de 15 minutes",
-        "C": "minimale est de 10 minutes",
-        "D": "Il n’y a aucune norme de séparation longitudinale"
+        "A": "La séparation longitudinale minimale est de 20 minutes°",
+        "B": "La séparation longitudinale minimale est de 15 minutes°",
+        "C": "La séparation longitudinale minimale est de 10 minutes°",
+        "D": "Il n’y a aucune aune norme de séparation longitudinale"
       },
       "reponse_correcte": "D"
     },
     {
       "id": 66,
-      "question": "Deux avions RVSM IFR entre F290 et F400, même route, sens opposé, distance verticale :",
+      "question": " Deux avions homologués RVSM volant selon les règles de vol IFR et évoluant entre les niveaux de vol F290 et F400, même route et sens opposé, sont séparés lorsqu'il y a entre eux une distance verticale d'au moins : ",
       "options": {
         "A": "1000 ft",
         "B": "1500 ft",
@@ -728,7 +728,7 @@
     },
     {
       "id": 67,
-      "question": "Deux avions, routes divergentes d’au moins 45°. Le 1er décolle à 16h35, le 2ème à :",
+      "question": "Deux avions se suivent au départ et leurs routes sont divergentes d’au moins 45° aussitôt après décollage. Le 1er décolle à 16h35, le 2ème décollera au plus tôt à ",
       "options": {
         "A": "16h36",
         "B": "16h37",
@@ -739,29 +739,29 @@
     },
     {
       "id": 68,
-      "question": "Avion croisant le niveau d'un autre le précédant sur même route. Espacement :",
+      "question": "Un aéronef doit croiser le niveau de vol d'un autre en croisière qui le précède au départ et les deux aéronefs suivent la même route. L'espacement entre eux sera au moins de : ",
       "options": {
-        "A": "5 mn au croisement",
-        "B": "5 mn sans espacement vertical",
-        "C": "10 mn tant qu’il n’y aura pas d’espacement vertical",
-        "D": "10 mn au croisement"
-      },
-      "reponse_correcte": "C"
-    },
-    {
-      "id": 69,
-      "question": "Montée en taux réglés possible si :",
-      "options": {
-        "A": "les pilotes des deux aéronefs sont sur la même fréquence",
-        "B": "mêmes vitesses de montée",
-        "C": "espacement de 2000 pieds",
-        "D": "même route magnétique"
+        "A": "5 mn au moment où le 2ème croise le niveau de croisière du 1er ",
+        "B": "5 mn tant qu’il n’y aura pas d’espacement vertical",
+        "C": "10 mn tant qu’il n’y aura pas d’espacement vertical ",
+        "D": "10 mn au moment où le 2ème croise le niveau de croisière du 1er "
       },
       "reponse_correcte": "A"
     },
     {
+      "id": 69,
+      "question": "Deux aéronefs au départ sont en montée en taux réglés. Une telle autorisation n'est possible que si : ",
+      "options": {
+        "A": "les pilotes des deux aéronefs sont sur la même fréquence",
+        "B": "les deux aéronefs adoptent les mêmes vitesses de montée",
+        "C": "l’espacement vertical est d’au moins 2000 pieds ",
+        "D": "les deux aéronefs sont sur la même route magnétique "
+      },
+      "reponse_correcte": "D"
+    },
+    {
       "id": 70,
-      "question": "A quelle distance du point de croisement A1 peut croiser le niveau de vol de A2 ?",
+      "question": "Les deux avions A1 et A2 se sont croisés. A quelle distance du point de croisement A1 peut croiser le niveau de vol de A2 ?",
       "options": {
         "A": "15 NM",
         "B": "10 NM",
@@ -785,16 +785,16 @@
       "id": 72,
       "question": "Un aérodrome AFIS est un aérodrome :",
       "options": {
-        "A": "Sans CTR",
-        "B": "Avec tour de contrôle",
+        "A": "Non doté d’une CTR ",
+        "B": "doté d’au moins une tour de contrôle",
         "C": "où n’est assuré que le service d’information au bénéfice des aéronefs en circulation d’aérodrome",
-        "D": "Sans procédures aux instruments"
+        "D": "Non doté de procédures d’approche aux instruments"
       },
       "reponse_correcte": "C"
     },
     {
       "id": 73,
-      "question": "Les formats de strips à l’ASECNA :",
+      "question": "Les formats de strips utilisés à l’ASECNA sont de deux sortes, qui sont ",
       "options": {
         "A": "ENR et APP",
         "B": "APP et TWR",
@@ -805,18 +805,18 @@
     },
     {
       "id": 74,
-      "question": "La case 15 du plan de vol OACI contient :",
+      "question": "La case 15 du plan de vol OACI doit contenir",
       "options": {
         "A": "la première vitesse de croisière, le premier niveau de croisière et la route",
-        "B": "aérodromes de départ/arrivée",
-        "C": "route ATS et Mach",
-        "D": "turbulence et type"
+        "B": "l'aérodrome de départ, l’aérodrome d’arrivée, l’heure estimée d’arrivée",
+        "C": "la route ATS, les points de compte-rendu et le nombre de Mach",
+        "D": "La catégorie de turbulence de sillage, le type d’aéronef et le régime de vol"
       },
       "reponse_correcte": "A"
     },
     {
       "id": 75,
-      "question": "Les renseignements complémentaires du plan de vol sont en :",
+      "question": "Les renseignements complémentaires du plan de vol OACI doivent être mentionnées dans ",
       "options": {
         "A": "case 18",
         "B": "case 20",
@@ -827,51 +827,51 @@
     },
     {
       "id": 76,
-      "question": "1er avion décolle à 20h32 (280 Kt), le 2ème (220 Kt) sur même route décollera à :",
+      "question": "Deux aéronefs au départ doivent suivre la même route pour le même niveau de vol. Le 1er avion décolle à 20h32 pour une vitesse de 280 Kt, le 2ème, à une vitesse 220 Kt, décollera au plus tôt à ",
       "options": {
         "A": "20h33",
         "B": "20h34",
         "C": "20h37",
         "D": "20h42"
       },
-      "reponse_correcte": "C"
+      "reponse_correcte": "B"
     },
     {
       "id": 77,
-      "question": "Le message « UNABLE RVSM DUE TURBULENCE » signifie :",
+      "question": "Le message « UNABLE RVSM DUE TURBULENCE » émis par un pilote, signifie que",
       "options": {
-        "A": "incapacité RNP horizontale",
-        "B": "L’aéronef rencontre des turbulences qui risquent d’altérer ses capacités à se maintenir à son CFL et qu’il ne peut plus respecter la RNP dans le plan vertical pour opérer dans l’espace aérien RVSM",
-        "C": "non homologué RVSM",
-        "D": "traitement d'urgence"
+        "A": "L’aéronef rencontre des turbulences qui risquent d’altérer ses capacités à se maintenir à son CFL et qu’il ne peut plus respecter la RNP dans le plan horizontal pour opérer dans l’espace aérien RVSM ",
+        "B": "L’aéronef rencontre des turbulences qui risquent d’altérer ses capacités à se maintenir à son CFL et qu’il ne peut plus respecter la RNP dans le plan vertical pour opérer dans l’espace aérien RVSM ",
+        "C": "L’aéronef n’est pas homologué RVSM ",
+        "D": "L’aéronef demande un traitement d’urgence"
       },
       "reponse_correcte": "B"
     },
     {
       "id": 78,
-      "question": "En classe A, séparation longitudinale en temps entre A1 et A2 :",
+      "question": "Dans un espace aérien de classe A deux aéronefs A1 et A2 se suivent sur la même route et au même niveau de vol. Quel est le minimum de séparation longitudinale en temps applicable entre A1 et A2 à l’ASECNA ?",
       "options": {
         "A": "15 minutes",
         "B": "5 minutes",
         "C": "3 minutes",
         "D": "10 minutes"
       },
-      "reponse_correcte": "D"
+      "reponse_correcte": "A"
     },
     {
       "id": 79,
-      "question": "En classe A, A1 (420 Kt) devant A2 (360 Kt). Séparation longitudinale :",
+      "question": "Dans un espace aérien de classe A deux aéronefs A1 et A2 se suivent sur la même route et au même niveau de vol. A1 affiche une vitesse de croisière de 420 Kt et A2 une vitesse de croisière de 360 Kt. Quel est le minimum de séparation longitudinale en temps applicable entre A1 et A2 à l’ASECNA ?",
       "options": {
         "A": "3 minutes",
         "B": "15 minutes",
         "C": "5 minutes",
         "D": "10 minutes"
       },
-      "reponse_correcte": "C"
+      "reponse_correcte": "A"
     },
     {
       "id": 80,
-      "question": "A320 et B737 en sens inverse, CR à 08h42 et 08h54. Heure de croisement :",
+      "question": "Un A320 et un B737, évoluant à la même vitesse, suivent la même route en sens inverse. Ils estiment le même point de compte-rendu CR respectivement à 08h42 et 08h54. Quelle est l’heure de croisement ?",
       "options": {
         "A": "08h43 mn",
         "B": "08h48 mn",
@@ -904,7 +904,7 @@
     },
     {
       "id": 83,
-      "question": "C1 (420 Kt) et C2 (360 Kt) avec DME sur route. Espacement longitudinal minimum :",
+      "question": "Deux aéronefs C1 et C2 se suivent sur la même route et au même niveau de vol. Ils utilisent la même station DME située sur leur route. C1 affiche une vitesse de croisière de 420 Kt et C2 360 Kt. Quel est l’espacement longitudinal minimum entre eux ?",
       "options": {
         "A": "15 NM",
         "B": "20 NM",
@@ -915,18 +915,18 @@
     },
     {
       "id": 84,
-      "question": "Clairance entourée dans la section CLAIRANCE du strip signifie :",
+      "question": "Dans une case de strip, quand la clairance est entourée dans la section CLAIRANCE, cela signifie que: ",
       "options": {
-        "A": "transmise à l'avion",
+        "A": "La clairance a été transmise à l’aéronef",
         "B": "La clairance a été transmise à l’organisme suivant",
-        "C": "renouvelée",
-        "D": "communiquée directement"
+        "C": "la clairance a été renouvelée",
+        "D": "la clairance a été communiquée directement au pilote"
       },
-      "reponse_correcte": "B"
+      "reponse_correcte": "D"
     },
     {
       "id": 85,
-      "question": "Nombre actuel de procédures PANS-OACI :",
+      "question": "L’OACI a élaboré des procédures pour les services de la Navigation aérienne, ces procédures sont actuellement au nombre de",
       "options": {
         "A": "3",
         "B": "4",
@@ -937,117 +937,117 @@
     },
     {
       "id": 86,
-      "question": "L'AIDC est un moyen de communication :",
+      "question": "En ce qui concerne les télécommunication aéronautiques, l’AIDC fait partie des moyens de communication :",
       "options": {
-        "A": "Air/sol",
+        "A": "Air/sol l’aéronef",
         "B": "Sol/sol",
         "C": "D’aérodrome",
-        "D": "Aucune"
+        "D": "Aucune bonne réponse"
       },
       "reponse_correcte": "B"
     },
     {
       "id": 87,
-      "question": "Délai max déclenchement phases d'alerte après perte radio IFR (INCERFA/ALERFA/DETRESFA) :",
+      "question": "Sur un aérodrome AFIS, en cas de manque de nouvelles d’un vol VFR avec plan de vol à H = heure estimée d’arrivée, dans quels délais maximums doivent être déclenchées les phases d’alerte ?",
       "options": {
-        "A": "5’ / 10’ / -",
-        "B": "- / 5’ / 10’",
-        "C": "- / 10’ / 20’",
-        "D": "5’ / 10’ / 15’"
+        "A": "Incerfa H+ 30’, Alerfa H+60’, Detresfa H+90’ ",
+        "B": "Incerfa H+ 20’, Alerfa H+40’, Detresfa H+60’",
+        "C": "Incerfa H+ 10’, Alerfa H+20’, Detresfa H+30’",
+        "D": "Alerfa H+10’, Detresfa H+30’"
       },
-      "reponse_correcte": "B"
+      "reponse_correcte": "C"
     },
     {
       "id": 88,
-      "question": "Délai max phases alerte AFIS pour VFR à l'arrivée (H) :",
+      "question": "La surface de référence utilisée pour déterminer les minima VMC est définie par le plus élevé des 2 niveaux suivant",
       "options": {
-        "A": "Incerfa H+30’, Alerfa H+60’, Detresfa H+90’",
-        "B": "H+20’, H+40’, H+60’",
-        "C": "H+10’, H+20’, H+30’",
-        "D": "Alerfa H+10’"
+        "A": "3000 ft AMSL ou 1000 ft ASFC",
+        "B": "5000 ft AMSL ou 1000 ft AGL",
+        "C": "FL 30 ou 1000 ft ASFC",
+        "D": "3000 ft AMSL ou 2000 ft ASFC"
       },
       "reponse_correcte": "A"
     },
     {
       "id": 89,
-      "question": "Surface de référence pour minima VMC (la plus élevée) :",
+      "question": "Le survol de l’eau en VFR est soumis à certaines exigences l’aéronef doit : ",
       "options": {
-        "A": "3000 ft AMSL / 1000 ft ASFC",
-        "B": "5000 ft AMSL / 1000 ft AGL",
-        "C": "FL 30 ou 1000 ft ASFC",
-        "D": "3000 ft AMSL / 2000 ft ASFC"
-      },
-      "reponse_correcte": "C"
-    },
-    {
-      "id": 90,
-      "question": "Exigences survol de l'eau en VFR :",
-      "options": {
-        "A": "balise si > 100 NM",
-        "B": "gilet si > 50 NM",
-        "C": "aucune si vol plané possible",
+        "A": "avoir à bord une balise de détresse si l’éloignement par rapport à la côte est supérieur à 100 NM",
+        "B": "comprendre un gilet par personne si l’éloignement par rapport à la côte est supérieur à 50 NM",
+        "C": "aucune obligation si l’aéronef peut rejoindre la côte en vol plané",
         "D": "toutes les réponses ci-dessus sont exactes"
       },
       "reponse_correcte": "D"
     },
     {
-      "id": 91,
-      "question": "En classe G, le pilote VFR :",
+      "id": 90,
+      "question": "Dans un espace de classe G, le pilote VFR :",
       "options": {
-        "A": "doit contacter le service",
-        "B": "reçoit une séparation",
+        "A": "doit contacter le service compétent dont la fréquence est indiquée sur la carte",
+        "B": "reçoit de la part des services une séparation dont la fréquence est indiquée sur la carte",
         "C": "n'a aucune obligation de contact radio",
-        "D": "interdit"
+        "D": "n'a pas à pénétrer, cette classe étant interdite aux vols VFR"
       },
       "reponse_correcte": "C"
     },
     {
-      "id": 92,
-      "question": "Séparation latérale VOR assurée si divergence de :",
+      "id": 91,
+      "question": "La séparation latérale réglementaire est assurée entre deux aéronefs :",
       "options": {
-        "A": "15° au moins et distance minimale de 28 Km (15NM)",
-        "B": "15° au moins et distance maximale",
-        "C": "15° au plus et distance minimale",
-        "D": "15° au plus et distance maximale"
+        "A": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d’un même VOR qui divergent de 15° au moins et que l’un des aéronefs se trouve à une distance minimale de 28 Km (15NM) de l’installation",
+        "B": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d’un même VOR qui divergent de 15° au moins et que les aéronefs se trouvent à une distance maximale de 28 Km (15NM) de l’installation;",
+        "C": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d’un même VOR qui divergent de 15° au plus et que les aéronefs se trouvent à une distance minimale de 28 Km (15NM) de l’installation ",
+        "D": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d’un même VOR qui divergent de 15° au plus et que les aéronefs se trouvent à une distance maximale de 28 Km (15NM) de l’installation"
+      },
+      "reponse_correcte": "A"
+    },
+    {
+      "id": 92,
+      "question": "Dans le cas où un NDB est utilisé pour assurer la séparation latérale entre deux aéronefs, la séparation latérale réglementaire est réalisée :",
+      "options": {
+        "A": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent de 30° au moins et que l’un des aéronefs se trouve à une distance minimale de 28 Km (15NM) de l’installation ",
+        "B": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent de 30° au moins et que les aéronefs se trouvent à une distance maximale de 28 Km (15NM) de l’installation",
+        "C": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent de 30° au plus et que les aéronefs se trouvent à une distance maximale de 28 Km (15NM) de l’installation",
+        "D": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent de 30° au plus et que les aéronefs se trouvent à une distance minimale de 28 Km (15NM) de l’installation"
       },
       "reponse_correcte": "A"
     },
     {
       "id": 93,
-      "question": "Séparation latérale NDB assurée si divergence de :",
+      "question": "L'heure d'approche prévue est l’heure à laquelle :",
       "options": {
-        "A": "30° au moins et distance minimale de 28 Km (15NM)",
-        "B": "30° au moins et distance maximale",
-        "C": "30° au plus",
-        "D": "30° au plus et distance minimale"
-      },
-      "reponse_correcte": "A"
-    },
-    {
-      "id": 94,
-      "question": "L'heure d'approche prévue (EAT) est celle où l'aéronef :",
-      "options": {
-        "A": "achève la route",
-        "B": "atteindra le repère",
-        "C": "débutera l'attente",
-        "D": "quittera le repère d'attente pour exécuter son approche"
+        "A": "s'achève la phase en route d'un vol ",
+        "B": "un organisme du contrôle de la circulation aérienne prévoit qu'un aéronef atteindra le repère d’attente",
+        "C": "un organisme du contrôle de la circulation aérienne prévoit qu'un aéronef débutera son attente ",
+        "D": "un organisme du contrôle de la circulation aérienne prévoit qu'un aéronef quittera le repère d'attente pour exécuter son approche en vue d’un atterrissage."
       },
       "reponse_correcte": "D"
     },
     {
+      "id": 94,
+      "question": "Un aéronef doit croiser le niveau de vol d'un autre en croisière qui le précède au départ et les deux aéronefs suivent la même route. L'espacement entre eux sera au moins de : ",
+      "options": {
+        "A": "10 mn au moment où le 2ème croise le niveau de croisière du 1er ",
+        "B": "5 mn au moment où le 2ème croise le niveau de croisière du 1er ",
+        "C": "5 mn tant qu’il n’y aura pas d’espacement vertical ",
+        "D": "10 mn tant qu’il n’y aura pas d’espacement vertical"
+      },
+      "reponse_correcte": "B"
+    },
+    {
       "id": 95,
-      "question": "A1 (420 Kt) et A2 (410 Kt) avec DME. Espacement longitudinal minimum :",
+      "question": "Deux aéronefs A1 et A2 se suivent sur la même route et au même niveau de vol. Ils utilisent la même station DME située sur leur route. A1 affiche une vitesse de croisière de 420 Kt et A2 410 Kt. Quel est l’espacement longitudinal minimum entre eux ?",
       "options": {
         "A": "15 NM",
         "B": "20 NM",
         "C": "5 NM",
         "D": "10 NM"
       },
-      "reponse_correcte": "D"
+      "reponse_correcte": "B"
     },
     {
       "id": 96,
-      "question": "Minima opérationnels incluent :",
+      "question": "Quels sont les paramètres appelés ‘‘Minima opérationnels’’ ",
       "options": {
         "A": "DH, plafond, MVL, API",
         "B": "DH, plafond, RVR, MDH",
@@ -1060,45 +1060,45 @@
       "id": 97,
       "question": "L’approche à vue est :",
       "options": {
-        "A": "en conditions VMC",
+        "A": "L’approche effectuée par un aéronef en conditions VMC",
         "B": "L’approche effectuée par un aéronef en vol IFR qui n’exécute pas ou interrompt la procédure d’approche aux instruments et exécute l’approche par repérage visuel du sol",
-        "C": "par indications PAPI",
-        "D": "vol VFR"
+        "C": "L’approche effectuée par un aéronef en vol IFR par repérage des indications du PAPI ",
+        "D": "L’approche effectuée par un aéronef en vol VFR"
       },
       "reponse_correcte": "B"
     },
     {
       "id": 98,
-      "question": "Séparation verticale minimale pour aéronef en attente :",
+      "question": "Quelle est la séparation minimale entre aéronefs en attente en vol et/ou entre aéronefs en attente et les autres aéronefs au départ, à l’arrivée ou en route ?",
       "options": {
-        "A": "1000 ft",
-        "B": "1000 ft si distance < 5 minutes de vol de l’aire d’attente",
+        "A": "1000 ft dans l’attente",
+        "B": "Une séparation verticale de 1000 ft sera assurée entre un aéronef en attente en vol et les autres aéronefs, que ceux-ci soient à l’arrivée, au départ ou en route, tant que ces autres aéronefs se trouvent à une distance de moins de 5 minutes de vol de l’aire de l’attente ou à une distance inférieure à celle prescrite par l’Autorité compétente",
         "C": "Les réponses a) et b) sont correctes",
-        "D": "aucune"
+        "D": "Ni la réponse a) ni la réponse b) n’est correcte"
       },
       "reponse_correcte": "C"
     },
     {
       "id": 99,
-      "question": "En approche de précision, indications nécessaires sur :",
+      "question": "Lors d’une procédure d’approche de précision, le pilote doit avoir des indication sur :",
       "options": {
         "A": "L’alignement de piste et la pente",
-        "B": "Distance et alignement",
+        "B": "Distance et alignement de piste",
         "C": "Distance et pente",
-        "D": "Alignement"
+        "D": "l'Alignement de piste"
       },
       "reponse_correcte": "A"
     },
     {
       "id": 100,
-      "question": "Le centre de contrôle d’approche (APP) assure :",
+      "question": "Le centre de contrôle d’approche est l'organisme de la circulation aériennechargé d'assurer la fourniture ",
       "options": {
-        "A": "services IFR",
-        "B": "des services de contrôle, d'information et d'alerte au profit des vols IFR et VFR dans la TMA et la CTR",
-        "C": "vols non contrôlés",
-        "D": "classe F et G"
+        "A": "des services de la CA au bénéfice des aéronefs évoluant en IFR dans les régions de contrôle et les zones de contrôle relevant deson autorité ",
+        "B": "des services de contrôle, d'information et d'alerte au profit des vols IFR et VFR dans la TMA et la CTR ",
+        "C": "des services de contrôle, d'information et d'alerte au profit des vols non contrôlés",
+        "D": "des services d'information et d'alerte au profit des vols contrôlés dans les espaces de classe F et G"
       },
-      "reponse_correcte": "B"
+      "reponse_correcte": "A"
     }
   ],
 
@@ -1173,9 +1173,9 @@
       "id": 7,
       "question": "Dans le cas d'une navigation à l'estime, quand peut-on considérer que la séparation latérale réglementaire est assurée entre deux aéronefs ?",
       "options": {
-        "A": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent de 45 degrés au plus, que l'un des aéronefs se trouve à une distance de 15 NM ou plus du point d'intersection des routes...",
-        "B": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d'au moins 30 degrés...",
-        "C": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d'au moins 25 degrés...",
+        "A": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent de 45 degrés au plus, que l'un des aéronefs se trouve à une distance de 15 NM ou plus du point d'intersection des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point ",
+        "B": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d'au moins 30 degrés, que l'un des aéronefs se trouve à une distance de 15 NM ou plus du point d'intersection des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point ",
+        "C": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d'au moins 25 degrés, que l'un des aéronefs se trouve à une distance de 15 NM ou plus du point d'intersection des routes, ce dernier étant déterminé visuellement",
         "D": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d'au moins 45 degrés, que l'un des aéronefs se trouve à une distance de 15 NM ou plus du point d'intersection des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point."
       },
       "reponse_correcte": "D"
@@ -1305,7 +1305,7 @@
       "id": 19,
       "question": "Dans quels cas l'organisme ATC concerné ne sera pas tenu d'appliquer une séparation en fonction de la turbulence de sillage :",
       "options": {
-        "A": "entre vols IFR à l'arrivée qui exécutent une approche visuelle...",
+        "A": "entre vols IFR à l'arrivée qui exécutent une approche visuelle lorsque l'aéronef a signalé que l'aéronef qui le précède est en vue et qu'il lui a été demandé de suivre et de maintenir lui-même sa séparation par rapport à cet aéronef",
         "B": "pour les vols VFR à l'arrivée atterrissant sur la même piste qu'un aéronef GROS-PORTEUR ou MOYEN qui les précède à l'atterrissage ;",
         "C": "dans aucun des cas ci-dessus ;",
         "D": "dans les cas a et b."
@@ -2119,10 +2119,10 @@
       "id": 93,
       "question": "Les limites des catégories de turbulence de sillage sont :",
       "options": {
-        "A": "Faible tonnage : moins de 7,5 tonnes...",
-        "B": "Faible tonnage : moins de 7,5 tonnes...",
+        "A": "Faible tonnage : moins de 7,5 tonnes Moyen: de 7,5 tonnes à 136 tonnes Gros porteur : plus de 136 tonnes",
+        "B": "Faible tonnage : moins d e 7,5 tonnes Moyen: d e 7,5 tonnes à 100 tonnes Gros porteur : plus de 100 tonnes",
         "C": "Faible tonnage : moins de 7 tonnes, Moyen : de 7 tonnes à 136 tonnes, Gros porteur : plus de 136 tonnes",
-        "D": "Faible tonnage : moins de 7 tonnes..."
+        "D": "Faible tonnage : moins de 7 tonnes Moyen: de 7 tonnes à 100 tonnes Gros porteur : plus d e 100 tonnes"
       },
       "reponse_correcte": "C"
     },
@@ -2152,9 +2152,9 @@
       "id": 96,
       "question": "Les minimums de séparation longitudinale et latérale peuvent être réduits aux abords des aérodromes lorsque :",
       "options": {
-        "A": "Le contrôleur d'aérodrome est à mesure d'assurer...",
+        "A": " Le contrôleur d'aérodrome est à mesure d'assurer une séparation convenable si chaque aéronef reste visible à tout moment pour ce contrôleur ",
         "B": "Les conditions sont VMC ;",
-        "C": "Le contrôleur d'aérodrome est en contact radio...",
+        "C": "Le contrôleur d'aérodrome est en contact radio avec les aéronefs concernés",
         "D": "Le commandant de bord en fait la demande."
       },
       "reponse_correcte": "B"
@@ -2163,10 +2163,10 @@
       "id": 97,
       "question": "Dans les espaces aériens gérés par l'ASECNA, le VFR/Contact (VFR/C) :",
       "options": {
-        "A": "est obligatoire en dehors de la CTR...",
+        "A": "est obligatoire en dehors de la CTR, dans les régions inhospitalières pour les aéronefs non munis d'équipements de radio télécommunications bilatérales;",
         "B": "n'existe pas ;",
-        "C": "est obligatoire dans les espaces de classe F et G...",
-        "D": "est défini pour les aéronefs non munis d'équipements..."
+        "C": "est obligatoire dans les espaces de classe F et G pour les aéronefs ne pouvant pas contacter un CIV:",
+        "D": "est défini pour les aéronefs non munis d'équipements de radio télécommunications bilatérales. "
       },
       "reponse_correcte": "B"
     },
@@ -2462,9 +2462,9 @@
       "id": 24,
       "question": "Dans le cas d’une navigation à l’estime, quand peut-on considérer que la séparation latérale réglementaire est assurée entre deux aéronefs ?",
       "options": {
-        "A": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent de 45 degrés au plus...",
-        "B": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d’au moins 30 degrés...",
-        "C": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d’au moins 25 degrés...",
+        "A": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent de 45 degrés au plus, que l'un des aéronefs se trouve à une distance de 15 NM ou plus du point d'intersection des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point",
+        "B": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d'au moins 30 degrés, que l'un des aéronefs se trouve à une distance de 15 NM ou plus du point d'intersection des routes, c e dernier étant déterminé visuellement o u par référence à une aide d e navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point ;",
+        "C": "orsque les aéroneís sont tous deux stabilisés sur des routes qui divergent d'au moins 25 degrés, que l'un des aéronefs se trouve à une distance de 15 NM ou plus du point d'intersection des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ca point ",
         "D": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d’au moins 45 degrés, que l’un des aéronefs se trouve à une distance de 15 NM ou plus du point d’intersection des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point"
       },
       "reponse_correcte": "D"
@@ -2627,10 +2627,10 @@
       "id": 39,
       "question": "Dans la zone ASECNA. la nuit aéronautique :",
       "options": {
-        "A": "commence 15 mn avant le coucher du soleil...",
-        "B": "commence 15 mn avant le coucher du soleil et finit 15 mn avant le lever...",
+        "A": "commence 15 mn avant le coucher du soleil et finit 15 min après le lever du soleil.",
+        "B": "commence 15 mn avant le coucher du soleil et finit 15 mn avant le lever du soleil",
         "C": "période du jour allant de 15 mn après le coucher du soleil à 15 mn avant le lever du soleil",
-        "D": "période de la journée allant de 15 mn après le coucher du soleil..."
+        "D": "période de la journée allant de 15 mn après le coucher du soleil à 15 mn après le lever du soleil"
       },
       "reponse_correcte": "C"
     },
@@ -2704,10 +2704,10 @@
       "id": 46,
       "question": "La clairance de séparation à vue est:",
       "options": {
-        "A": "une clairance complémentaire accordée à plusieurs aéronefs en vol contrôlé au-dessus du FL100...",
+        "A": "une clairance complémentaire accordée à plusieurs aéronefs en vol contrôlé au-dessus du FL100 leur permettant de s'affranchir des espacements réglementaires vis à vis des autres aéronefs contrôlés et d'assurer visuellement leur propre séparation, les uns par rapport aux autres",
         "B": "une clairance complémentaire accordée à un aéronef en vol contrôlé en dessous du FL100 lui permettant de s'affranchir des espacements réglementaires vis à vis d'un seul autre aéronef contrôlé et d'assurer visuellement sa propre séparation par rapport à celui-ci",
-        "C": "une clairance complémentaire accordée à un aéronef en vol contrôlé en dessous du FL100 lui permettant de s'affranchir des espacements réglementaires vis à vis des autres aéronefs contrôlés...",
-        "D": "une clairance complémentaire accordée à un aéronef en vol VFR contrôlé en dessous du FL100"
+        "C": "une clairance complémentaire accordée à un aéronef en vol contrôlé en dessous du FL100 lui permettant de s'affranchir des espacements réglementaires vis à vis des autres aéronefs contrôlés et d'assurer visuellement sa propre séparation par rapport à ceux-ci;",
+        "D": "une clairance complémentaire accordée à un aéronef en vol VFR contrôlé en dessous du FL100 lui permettant de s'affranchir des espacements réglementaires vis à vis d'un seul autre aéronef contrôlé et d'assurer visuellement sa propre séparation par rapport à celui-ci."
       },
       "reponse_correcte": "B"
     },
@@ -2847,10 +2847,10 @@
       "id": 59,
       "question": "L’altitude de franchissement d’obstacles (OCA) :",
       "options": {
-        "A": "altitude la plus basse au-dessus de l’obstacle le plus élevé situé à côté de la piste...",
-        "B": "altitude la plus basse au-dessus de l’obstacle le plus élevé situé au QFU opposé...",
+        "A": "altitude la plus basse au-dessus de l’obstacle le plus élevé situé à côté de la piste, utilisée pour respecter les critères de franchissement d'obstacles ",
+        "B": "altitude la plus basse au-dessus de l’obstacle le plus élevé situé au QFU opposé de la piste en service, utilisée pour respecter les critères de franchissement d'obstacles ",
         "C": "altitude la plus basse au-dessus du seuil de piste en cause ou au-dessus de l’aérodrome utilisée pour respecter les critères de franchissement d’obstacles",
-        "D": "altitude la plus basse au-dessous de l’obstacle le plus élevé situé à côté de la piste..."
+        "D": "altitude la plus basse au-dessous de l’obstacle le plus élevé situé à côté de la piste, utilisée pour respecter les critères de franchissement d'obstacles "
       },
       "reponse_correcte": "C"
     },
@@ -3021,20 +3021,20 @@
     },
     {
       "id": 75,
-      "question": "La surface « S » est une surface de référence définie par :",
+      "question": "En cas de perte de contact radio en cours de procédure IFR ou dans la circulation d’aérodrome, quel est le délai maximum de déclenchement des phases d’alerte ?",
       "options": {
-        "A": "l'altitude pression du terrain",
-        "B": "le niveau de vol 30",
-        "C": "la plus grande des 2 valeurs : FL030 ou 300 mètres/sol",
-        "D": "l’altitude minimale de secteur du terrain"
+        "A": "INCERFA 5’ — ALERFA 10’ — DETRESFA -",
+        "B": "INCERFA - — ALERFA 5’ — DETRESFA 10’",
+        "C": "INCERFA - — ALERFA 10’ — DETRESFA 20’",
+        "D": "INCERFA 5’ — ALERFA 10’ — DETRESFA 15’"
       },
-      "reponse_correcte": "C"
+      "reponse_correcte": "B"
     },
     {
       "id": 76,
       "question": "Le message « UNABLE RVSM DUE TURBULENCE » émis par un pilote, signifie que :",
       "options": {
-        "A": "L’aéronef rencontre des turbulences qui risquent d’altérer ses capacités à se maintenir à son CFL et qu’il ne peut plus respecter la RNP dans le plan horizontal...",
+        "A": "L’aéronef rencontre des turbulences qui risquent d’altérer ses capacités à se maintenir à son CFL et qu’il ne peut plus respecter la RNP dans le plan horizontal pour opérer dans l'espace aérien RVSM ;",
         "B": "L’aéronef rencontre des turbulences qui risquent d’altérer ses capacités à se maintenir à son CFL et qu’il ne peut plus respecter la RNP dans le plan vertical pour opérer dans l’espace aérien RVSM",
         "C": "L'aéronef n'est pas homologué RVSM",
         "D": "L'aéronef demande un traitement d'urgence"
@@ -3100,9 +3100,9 @@
       "id": 82,
       "question": "La case 16 du plan de vol OACI doit contenir :",
       "options": {
-        "A": "La catégorie de turbulence de sillage, le type d'aéronef...",
+        "A": "La catégorie de turbulence de sillage, le type d'aéronef et le régime de vol ",
         "B": "l'aérodrome de destination, et aérodromes de dégagement",
-        "C": "la route ATS, les points de compte-rendu...",
+        "C": "la route ATS, les points de compte-rendue et le nombre de Mach",
         "D": "l'aérodrome de destination, durée totale estimée et aérodromes de dégagement"
       },
       "reponse_correcte": "D"
@@ -3155,7 +3155,7 @@
       "id": 87,
       "question": "Une phase de détresse (DETRESFA) est une :",
       "options": {
-        "A": "Situation dans laquelle on peut craindre pour la sécurité...",
+        "A": "Situation dans laquelle on peut craindre pour la sécurité d'un aéronef et de ses occupants. ",
         "B": "Situation dans laquelle il y a tout lieu de penser qu'un aéronef et ses occupants sont menacés d'un danger grave et imminent et qu'ils ont besoin d'un secours immédiat",
         "C": "Situation de danger possible",
         "D": "Situation d'incertitude"
@@ -3221,8 +3221,8 @@
       "id": 93,
       "question": "Les limites des catégories de turbulence de sillage sont :",
       "options": {
-        "A": "Faible : moins de 7,5t - Moyen : 7,5t à 136t...",
-        "B": "Faible : moins de 7,5t - Moyen : 7,5t à 100t...",
+        "A": "Faible tonnage : moins d e 7,5 tonnes- Moyen : d e 7,5 tonnes à 136 tonnes- Gros porteur : plus de 136 tonnes ",
+        "B": "Faible tonnage : moins d e 7,5 tonnes- Moyen : de 7,5 tonnes à 100 tonnes Gros porteur : plus de 100 tonnes ",
         "C": "Faible tonnage : moins de 7 tonnes- Moyen tonnage : de 7 tonnes à 136 tonnes- Gros porteur : plus de 136 tonnes",
         "D": "Faible : moins de 7t - Moyen : 7t à 100t"
       },
@@ -3444,9 +3444,9 @@
       "id": 13,
       "question": "Dans le cas d'une navigation à l'estime, quand peut-on considérer que la séparation latérale réglementaire est assurée entre deux aéronefs ?",
       "options": {
-        "A": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent de 45 degrés au plus, que l'un des aéronefs se trouve à une distance de 15 NM ou plus du point d'intersection des routes...",
-        "B": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d'au moins 30 degrés...",
-        "C": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d'au moins 25 degrés...",
+        "A": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent de 45 degrés au plus, que l'un des aéronefs se trouve à une distance de 15 NM ou plus du point d'intersection des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point ",
+        "B": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d'au moins 30 degrés, que l'un des aéronefs se trouve à une distance de 15 NM o u plus du point d'intersection des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point ",
+        "C": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d'au moins 25 degrés,  que l'un des aéronefs se trouve à une distance de 15 NM ou plus du point d'inierscotion des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point ;",
         "D": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d'au moins 45 degrés, que l'un des aéronefs se trouve à une distance de 15 NM ou plus du point d'intersection des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point."
       },
       "reponse_correcte": "D"
@@ -3510,10 +3510,10 @@
       "id": 19,
       "question": "Quand est-ce que la séparation latérale réglementaire entre deux aéronefs devant survoler un même VOR en convergence/divergence est assurée ?",
       "options": {
-        "A": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d'un même VOR qui divergent de 10 degrés ou plus...",
-        "B": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d'un même VOR qui divergent de 15 degrés au plus...",
+        "A": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d'un même VOR qui divergent de 10 degrés ou plus e t que l'un des aéronefs se trouve à une distance de 28 Km (15 NM) ou plus de l'installation ",
+        "B": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d'un même VOR qui divergent de 15 degrés au plus e t que l'un des aéronefs se trouve à une distance de 28 Km (15 NM) o u plus de l'installation ",
         "C": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d'un même VOR qui divergent de 15 degrés ou plus et que l'un des aéronefs se trouve à une distance de 28 Km (15 NM) ou plus de l'installation ;",
-        "D": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d'un même VOR qui divergent de 20 degrés au moins..."
+        "D": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d'un même VOR qui divergent de 20 degrés au moins et que l'un des aéronefs se trouve à une distance de 28 Km (15 NM) ou plus de l'instalation"
       },
       "reponse_correcte": "C"
     },
@@ -3524,7 +3524,7 @@
         "A": "voici votre clearance: \" ;",
         "B": "rappelez prêt à copier la clearance.\" ;",
         "C": "\"....votre clearance: \" ;",
-        "D": "autorisé \"."
+        "D": "....autorisé \"."
       },
       "reponse_correcte": "B"
     },
@@ -3697,7 +3697,7 @@
       "id": 36,
       "question": "Dans quels cas l'organisme ATC concerné ne sera pas tenu d'appliquer une séparation en fonction de la turbulence de sillage :",
       "options": {
-        "A": "entre vols IFR à l'arrivée qui exécutent une approche visuelle...",
+        "A": "entre vols IFR à l'arrivée qui exécutent une approche visuelle lorsque l'aéronef a signalé que l'aéronef qui le précède est en vue e t qu'il lui a été demandé de suivre et de maintenir lui-même sa séparation par rapport à cet aéronef ",
         "B": "pour les vols VFR à l'arrivée atterrissant sur la même piste qu'un aéronef GROS-PORTEUR ou MOYEN qui les précède à l'atterrissage ;",
         "C": "dans aucun des cas ci-dessus ;",
         "D": "dans les cas a et b."
@@ -3709,9 +3709,9 @@
       "question": "Un virage de base est:",
       "options": {
         "A": "Un virage effectué à partir d'une trajectoire désignée, suivi d'un autre virage en sens inverse, de telle sorte que l'aéronef puisse rejoindre la trajectoire désignée pour la suivre en sens inverse;",
-        "B": "Dans le cadre d'une approche classique, un virage effectué à partir de l'IAF suivi d'un autre virage en sens inverse...",
-        "C": "Un virage exécuté par un aéronef au cours de l'approche initiale...",
-        "D": "Un virage exécuté par un aéronef au cours de l'approche initiale... Ces deux trajectoires sont exactement opposées."
+        "B": "Dans le cadre d'une approche classique, un virage effectué à partir de l'IAF suivi d'un autre virage en sens inverse de telle sorte que l'aéronef puisse rejoindre la trajectoire désignée pour la suivre en sens inverse;",
+        "C": "Un virage exécuté par un aéronef au cours de l'approche initiale, entre l'extrémité de la trajectoire d'éloignement e t le début de la trajectoire d'approche intermédiaire ou finale",
+        "D": "Un virage exécuté par un aéronef au cours de l'approche initiale entre l'extrémité de la trajectoire d'éloignement et le début de la trajectoire d'approche intermédiaire ou finale"
       },
       "reponse_correcte": "A"
     },
@@ -3799,7 +3799,7 @@
         "A": "Les conditions sont VMC ;",
         "B": "Le contrôleur d'aérodrome est en contact radio avec les aéronefs concernés ;",
         "C": "Le commandant de bord en fait la demande ;",
-        "D": "Le contrôleur d'aérodrome est à mesure d'assurer une séparation convenable..."
+        "D": "Le contrôleur d'aérodrome est à mesure d'assurer une séparation convenable si chaque aéronef reste visible à tout moment pour ce contrôleur."
       },
       "reponse_correcte": "A"
     },
@@ -3874,9 +3874,9 @@
       "question": "Dans le cas où un NDB est utilisé pour assurer la séparation latérale entre deux aéronefs devant survoler cette installation en convergence/divergence, quand peut-on considérer que la séparation latérale réglementaire est réalisée ?",
       "options": {
         "A": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d'au moins 30 degrés et que l'un des aéronefs se trouve à une distance de 28 Km ou plus de l'installation ;",
-        "B": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d'au moins 20 degrés...",
-        "C": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d'au plus 30 degrés...",
-        "D": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d'au moins 30 degrés et que l'un des aéronefs se trouve à une distance de 10 NM ou plus..."
+        "B": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d'au moins 20 degrés et que l'un des aéronefs se trouve à une distance de 15 NM ou plus de l'installation ;",
+        "C": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d'au plus 30 degrés e t que l'un des aéronefs se trouve à une distance d e 15 NM ou plus de l'installation ",
+        "D": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d'au moins 30 degrés et que l'un des aéronefs se trouve à une distance de 10 NM ou plus de l'installation"
       },
       "reponse_correcte": "A"
     },
@@ -3896,7 +3896,7 @@
       "question": "Quelle est la séparation minimale entre aéronefs en attente en vol et les autres aéronefs?",
       "options": {
         "A": "1000ft dans l'attente ;",
-        "B": "une séparation verticale de 1000 ft sera assurée entre un aéronef en attente en vol et les autres aéronefs, que ceux-ci soient à l'arrivée, au départ ou en route, tant que ces autres aéronefs se trouvent à une distance de moins de 5 minutes de vol de l'aire d'attente...",
+        "B": "une séparation verticale de 1000 ft sera assurée entre un aéronef en attente en vol et les autres aéronefs, que ceux-ci soient à l'arrivée, au départ ou en route, tant que ces autres aéronefs se trouvent à une distance de moins de 5 minutes de vol de l'aire d'attente à une distance inférieure à celle que l'autorité compétente a prescrite;",
         "C": "les réponses a. et b. sont correctes ;",
         "D": "ni la réponse a. ni la réponse b. n'est correcte;"
       },
@@ -4017,8 +4017,8 @@
       "question": "Un virage conventionnel est:",
       "options": {
         "A": "Un virage effectué à partir d'une trajectoire désignée, suivi d'un autre virage en sens inverse, de telle sorte que l'aéronef puisse rejoindre la trajectoire désignée pour la suivre en sens inverse ;",
-        "B": "Dans le cadre d'une approche classique, un virage effectué à partir de l'IAF suivi d'un autre virage en sens inverse...",
-        "C": "Un virage exécuté par un aéronef au cours de l'approche initiale...",
+        "B": "Dans le cadre d'une approche classique, un virage effectué à partir de l'IAF suivi d'un autre virage en sens inverse de telle sorte que l'aéronef puisse rejoindre la trajectoire désignée pour la suivre en sens inverse",
+        "C": "Un virage exécuté par un aéronef au cours de l'approche initiale, entre l'extrémité de la trajectoire d'éloignement et le début d e la trajectoire d'approche intermédiaire ou finale. Ces deux trajectoires ne sont pas exactement opposée",
         "D": "Un virage exécuté par un aéronef au cours de l'approche initiale, entre l'extrémité de la trajectoire d'éloignement et le début de la trajectoire d'approche intermédiaire ou finale. Ces deux trajectoires sont exactement opposées."
       },
       "reponse_correcte": "D"
@@ -4413,7 +4413,7 @@
   "2013": [
     {
       "id": 1,
-      "question": "Deux aéronefs B1 et B2 de même performance suivent la même route en sens inverse. Ils sont respectivement à 70 NM et 120 NM de part et d’autre d’un même point de compte-rendu CR qui est une station DME. A Quelle distance du point CR l’avion B1 peut croiser le niveau de vol de B2. ?",
+      "question": "Deux aéronefs B1 et B2 de même performance suivent la même route en sens inverse. Ils sont respectivement à 70 NM et 120 NM de part et d’autre d’un même point de compte-rendu CR qui est une station DME. A Quelle distance du point CR l’avion B1 peut croiser le niveau de vol de B2.",
       "options": {
         "A": "quand B1 est à 10 NM après CR ;",
         "B": "quand B2 est à 20 NM après CR ;",
@@ -4448,10 +4448,10 @@
       "id": 4,
       "question": "Dans les espaces aériens gérés par l’ASECNA, quand est-ce que la séparation latérale réglementaire entre deux aéronefs est assurée ?",
       "options": {
-        "A": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d’un même VOR qui divergent de 10 degrés ou plus...",
+        "A": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d’un même VOR qui divergent de 10 degrés ou plus et que l’un des aéronefs se trouve à une distance de 28 Km (15NM) ou plus de l’installation",
         "B": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d’un même VOR qui divergent de 15 degrés ou plus et que l’un des aéronefs se trouve à une distance de 28 Km (15NM) ou plus de l’installation ;",
-        "C": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d’un même VOR qui divergent de 15 degrés au plus...",
-        "D": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d’un même VOR qui divergent de 20 degrés au moins..."
+        "C": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d’un même VOR qui divergent de 15 degrés au plus et que l’un des aéronefs se trouve à une distance de 28 Km (15NM) ou plus de l’installation",
+        "D": "Lorsque les aéronefs sont tous deux stabilisés sur des radiales d’un même VOR qui divergent de 20 degrés au moins et que l’un des aéronefs se trouve à une distance de 28 Km (15NM) ou plus de l’installation."
       },
       "reponse_correcte": "B"
     },
@@ -4460,20 +4460,20 @@
       "question": "Dans le cas où un NDB est utilisé pour assurer la séparation latérale entre deux aéronefs, quand peut-on considérer que la séparation latérale réglementaire est réalisée ?",
       "options": {
         "A": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d’au moins 30 degrés et que l’un des aéronefs se trouve à une distance de 28 Km ou plus de l’installation ;",
-        "B": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d’au moins 20 degrés...",
-        "C": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d’au plus 15 degrés...",
-        "D": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d’au moins 30 degrés..."
+        "B": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d’au moins 20 degrés et que l’un des aéronefs se trouve à une distance de 15NM ou plus de l’installation",
+        "C": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d’au plus 15 degrés et que l’un des aéronefs se trouve à une distance de 15 NM ou plus de l’installation",
+        "D": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d’au moins 30 degrés et que l’un des aéronefs se trouve à une distance de 10 NM ou plus de l’installation."
       },
       "reponse_correcte": "A"
     },
     {
       "id": 6,
-      "question": "Dans le cas d’une navigation à l’estime, quand peut-on considérer que la séparation latérale réglementaire est assurée entre deux aéronefs ?",
+      "question": "Dans le cas où un NDB est utilisé pour assurer la séparation latérale entre deux aéronefs, quand peut-on considérer que la séparation latérale réglementaire est réalisée ?",
       "options": {
-        "A": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent de 45 degrés au plus...",
-        "B": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d’au moins 30 degrés...",
-        "C": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d’au moins 25 degrés...",
-        "D": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d’au moins 45 degrés, que l’un des aéronefs se trouve à une distance de 15 NM ou plus du point d’intersection des routes..."
+        "A": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d’au moins 30 degrés et que l’un des aéronefs se trouve à une distance de 28 Km ou plus de l’installation ",
+        "B": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d’au moins 20 degrés et que l’un des aéronefs se trouve à une distance de 15 NM ou plus de l’installation",
+        "C": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d’au plus 15 degrés et que l’un des aéronefs se trouve à une distance de 15 NM ou plus de l’installation",
+        "D": "Lorsque les deux aéronefs sont stabilisés sur des routes en rapprochement ou en éloignement du NDB qui divergent d’au moins 30 degrés et que l’un des aéronefs se trouve à une distance de 10 NM ou plus de l’installation."
       },
       "reponse_correcte": "D"
     },
@@ -4506,7 +4506,7 @@
         "A": "Une méthode de navigation au plus près de la surface du sol ;",
         "B": "Une méthode de navigation permettant le vol dans n’importe quelle trajectoire uniquement avec les moyens inertiels ;",
         "C": "Une méthode de navigation permettant le vol dans n’importe quelle trajectoire voulue uniquement dans les limites de la couverture des aides à la navigation par satellite ;",
-        "D": "Une méthode de navigation permettant le vol dans n’importe quelle trajectoire voulue dans les limites de la couverture des aides à la navigation de référence..."
+        "D": "Une méthode de navigation permettant le vol dans n’importe quelle trajectoire voulue dans les limites de la couverture des aides à la navigation de référence ou dans les limites des possibilités d’une aide autonome ou grâce à la combinaison de ces deux moyens ."
       },
       "reponse_correcte": "D"
     },
@@ -4537,7 +4537,7 @@
       "question": "Une circulation à la surface d’un aéronef se caractérise par :",
       "options": {
         "A": "Déplacement d’un aéronef aux moyens d’un engin de remorquage sur les aires de mouvement ;",
-        "B": "Déplacement d’un aéronef aux moyens d’un engin de remorquage sur les voies de circulation...",
+        "B": "Déplacement d’un aéronef aux moyens d’un engin de remorquage sur les voies de circulation ou les pistes d’atterrissage ",
         "C": "Vol rasant d’un aéronef au-dessus de la surface de l’eau ;",
         "D": "Déplacement d’un aéronef, par ses propres moyens, à la surface d’un aérodrome, à l’exclusion des décollages et des atterrissages ;"
       },
@@ -4570,7 +4570,7 @@
       "question": "Une route RNAV est :",
       "options": {
         "A": "Une route ATS établie à l’usage des aéronefs qui utilisent la navigation à l’estime ;",
-        "B": "Un itinéraire prédéterminé entre deux VOR distant de moins de 200 NM...",
+        "B": "Un itinéraire prédéterminé entre deux VOR distant de moins de 200 NM NM dans un espace aérien contrôlé",
         "C": "Une route ATS établie à l’usage des aéronefs longs courriers qui utilisent la navigation satellitaire ;",
         "D": "Une route ATS établie à l’usage des aéronefs qui peuvent utiliser la navigation de surface."
       },
@@ -4613,7 +4613,7 @@
       "id": 19,
       "question": "Le message « UNABLE RVSM DUE EQUIPMENT » émis par un pilote, signifie que :",
       "options": {
-        "A": "Les équipements de l’aéronef ne lui permettent plus de pouvoir respecter la RNP dans le plan horizontal...",
+        "A": "Les équipements de l’aéronef ne lui permettent plus de pouvoir respecter la RNP dans le plan horizontat pour opérer dans l’espace aérien RVSM",
         "B": "Les équipements de l’aéronef ne lui permettent plus de pouvoir respecter la RNP dans le plan vertical pour opérer dans l’espace aérien RVSM ;",
         "C": "Les équipements de l’aéronef mettent en doute son homologué RVSM ;",
         "D": "L’aéronef demande un traitement d’urgence."
@@ -4624,7 +4624,7 @@
       "id": 20,
       "question": "Le message « UNABLE RVSM DUE TURBULENCE » émis par un pilote, signifie que :",
       "options": {
-        "A": "L’aéronef rencontre des turbulences... respecter la RNP dans le plan horizontal...",
+        "A": "L’aéronef rencontre des turbulences qui risquent d’altérer ses capacités à se maintenir à son CFL et qu’il ne peut plus respecter la RNP dans le plan horizontal pour opérer dans l’espace aérien RVSM ",
         "B": "L’aéronef rencontre des turbulences qui risquent d’altérer ses capacités à se maintenir à son CFL et qu’il ne peut plus respecter la RNP dans le plan vertical pour opérer dans l’espace aérien RVSM ;",
         "C": "L’aéronef n’est pas homologué RVSM ;",
         "D": "L’aéronef demande un traitement d’urgence."
@@ -4649,7 +4649,7 @@
         "A": "Situation dans laquelle on peut craindre pour la sécurité d'un aéronef et de ses occupants. ;",
         "B": "Situation dans laquelle il y a lieu de douter de la sécurité d'un aéronef et de ses occupants ;",
         "C": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef est en danger ;",
-        "D": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef et ses occupants sont menacés..."
+        "D": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef et ses occupants sont menacés d'un danger grave et imminent et qu'ils ont besoin d'un secours immédiat"
       },
       "reponse_correcte": "A"
     },
@@ -4734,9 +4734,9 @@
       "id": 30,
       "question": "L'heure d'approche prévue, c’est l’heure à laquelle :",
       "options": {
-        "A": "un organisme... prévoit qu'un aéronef atteindra le repère d’attente ;",
+        "A": "un organisme du contrôle de la circulation aérienne prévoit qu'un aéronef atteindra le repère d’attente",
         "B": "un organisme du contrôle de la circulation aérienne prévoit qu'un aéronef quittera le repère d'attente pour exécuter son approche en vue d’un atterrissage ;",
-        "C": "un organisme... prévoit qu'un aéronef débutera son approche;",
+        "C": "un organisme du contrôle de la circulation aérienne prévoit qu'un aéronef débutera son approche;",
         "D": "s'achève la phase en route d'un vol."
       },
       "reponse_correcte": "B"
@@ -4845,7 +4845,7 @@
       "question": "Dans la zone ASECNA, la nuit aéronautique :",
       "options": {
         "A": "commence 15 mn avant le coucher du soleil et finit 15mn après le lever du soleil ;",
-        "B": "commence 15 mn avant le coucher du soleil et finit 15mn avant le lever...",
+        "B": "commence 15 mn avant le coucher du soleil et finit 15mn avant le lever du soleil",
         "C": "période du jour allant de 15 mn après le coucher du soleil à 15mn avant le lever du soleil;",
         "D": "période de la journée allant de 15 mn après le coucher du soleil à 15mn après le lever du soleil."
       },
@@ -4889,7 +4889,7 @@
       "question": "Le centre d'information de vol est l'organisme de la circulation aérienne :",
       "options": {
         "A": "institué pour assurer le service d'information de vol et le service d'alerte au profit des aéronefs contrôlés dans les espaces de classe F et G. ;",
-        "B": "institué pour assurer le service d'information de vol et le service de contrôle au profit des aéronefs contrôles...",
+        "B": "institué pour assurer le service d'information de vol et le service de contrôle au profit des aéronefs contrôles dans les espaces de classe F et G.",
         "C": "institué pour assurer le service d'information de vol et le service d'alerte au profit des aéronefs non contrôlés dans les espaces de classe F et G ;",
         "D": "institué pour assurer le service d'information de vol au profit des aéronefs non contrôlés dans les espaces de classe F et G."
       },
@@ -4897,7 +4897,7 @@
     },
     {
       "id": 45,
-      "question": "Le centre d’information de vol (CIV ou FIC) assure le service d’information de vol en fournissant les renseignements sur la circulation aérienne... :",
+      "question": "Le centre d’information de vol (CIV ou FIC) assure le service d’information de vol en fournissant les renseignements sur la circulation aérienne, la météorologie, le fonctionnement des installations, l’état des aérodromes et tout autre renseignement jugé utile pour le déroulement des vols :",
       "options": {
         "A": "Au bénéfice des vols VFR évoluant dans la FIR ;",
         "B": "Au bénéfice des vols IFR et VFR évoluant en espace aérien inférieur ;",
@@ -5031,10 +5031,10 @@
       "id": 57,
       "question": "L’altitude de franchissement d’obstacles (OCA) :",
       "options": {
-        "A": "altitude la plus basse au-dessus de l’obstacle le plus élevé situé à côté de la piste...",
-        "B": "altitude la plus basse au-dessus de l’obstacle le plus élevé situé au QFU opposé...",
+        "A": "altitude la plus basse au-dessus de l’obstacle le plus élevé situé à côté de la piste, utilisée pour respecter les critères de franchissement d’obstacles",
+        "B": "altitude la plus basse au-dessus de l’obstacle le plus élevé situé au QFU opposé de la piste en service, utilisée pour respecter les critères de franchissement d’obstacles",
         "C": "altitude la plus basse au-dessus du seuil de piste en cause ou au-dessus de l’aérodrome utilisée pour respecter les critères de franchissement d’obstacles ;",
-        "D": "altitude la plus basse au-dessous de l’obstacle le plus élevé situé à côté de la piste..."
+        "D": "altitude la plus basse au-dessous de l’obstacle le plus élevé situé à côté de la piste, utilisée pour respecter les critères de franchissement d’obstacles"
       },
       "reponse_correcte": "C"
     },
@@ -5042,8 +5042,8 @@
       "id": 58,
       "question": "Dans les espaces aériens gérés par l’ASECNA, le VFR/Contact (VFR/C) :",
       "options": {
-        "A": "Est obligatoire en dehors de la CTR...",
-        "B": "est obligatoire dans les espaces de classe F et G...",
+        "A": "Est obligatoire en dehors de la CTR, dans les régions inhospitalières pour les aéronefs non munis d’équipements de radio télécommunications bilatérales",
+        "B": "est obligatoire dans les espaces de classe F et G pour les aéronefs ne pouvant pas contacter un CIV",
         "C": "n'existe pas;",
         "D": "est défini pour les aéronefs non munis d’équipements de radio télécommunications bilatérales."
       },
@@ -5273,9 +5273,9 @@
       "id": 79,
       "question": "La case 16 du plan de vol OACI doit contenir :",
       "options": {
-        "A": "La catégorie de turbulence de sillage...",
+        "A": "La catégorie de turbulence de sillage, le type d’aéronef et le régime de vol.",
         "B": "l'aérodrome de destination, et aérodromes de dégagement.",
-        "C": "la route ATS, les points de compte-rendu...",
+        "C": "la route ATS, les points de compte-rendu et le nombre de Mach",
         "D": "l'aérodrome de destination, durée totale estimée et aérodromes de dégagement."
       },
       "reponse_correcte": "D"
@@ -5361,7 +5361,7 @@
       "id": 87,
       "question": "Une phase de détresse (DETRESFA)) est :",
       "options": {
-        "A": "Situation dans laquelle on peut craindre pour la sécurité d'un aéronef... ;",
+        "A": "Situation dans laquelle on peut craindre pour la sécurité d'un aéronef et de ses occupants.;",
         "B": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef et ses occupants sont menacés d'un danger grave et imminent et qu'ils ont besoin d'un secours immédiat;"
       },
       "reponse_correcte": "B"
@@ -5425,10 +5425,10 @@
       "id": 93,
       "question": "Les limites des catégories de turbulence de sillage sont :",
       "options": {
-        "A": "Faible tonnage : moins de 7,5 tonnes... ;",
-        "B": "Faible tonnage : moins de 7,5 tonnes... ;",
+        "A": "Faible tonnage : moins de 7,5 tonnes Moyen : de 7,5 tonnes à 136 tonnes Gros porteur : plus de 136 tonnes;",
+        "B": "Faible tonnage : moins de 7,5 tonnes Moyen : de 7,5 tonnes à 100 tonnes Gros porteur : plus de 100 tonnes;",
         "C": "Faible tonnage : moins de 7 tonnes - Moyen tonnage : de 7 tonnes à 136 tonnes - Gros porteur : plus de 136 tonnes",
-        "D": "Faible tonnage : moins de 7 tonnes..."
+        "D": "Faible tonnage : moins de 7 tonnes Moyen : de 7 tonnes à 100 tonnes Gros porteur : plus de 100 tonnes"
       },
       "reponse_correcte": "C"
     },
@@ -5436,9 +5436,9 @@
       "id": 94,
       "question": "Une phase d’incertitude (INCERFA) est :",
       "options": {
-        "A": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef... besoin d'un secours immédiat;",
-        "B": "Situation dans laquelle on peut craindre pour la sécurité d'un aéronef... ;",
-        "C": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef est en danger ;",
+        "A": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef et ses occupants sont menacés d'un danger grave et imminent et qu'ils ont besoin d'un secours immédiat",
+        "B": "Situation dans laquelle on peut craindre pour la sécurité d'un aéronef et de ses occupants;",
+        "C": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef est en danger",
         "D": "Situation dans laquelle il y a lieu de douter de la sécurité d'un aéronef et de ses occupants."
       },
       "reponse_correcte": "D"
@@ -5449,8 +5449,8 @@
       "options": {
         "A": "Signal émanant d'un aéronef et indiquant que ce dernier est sous la menace d'un détournement violent ;",
         "B": "Signal émanant d'un aéronef et indiquant que ce dernier est sous la menace d'un danger grave et imminent et demande une assistance immédiate ;",
-        "C": "Signal signifiant qu’un aéronef a un message très urgent...",
-        "D": "Signal signifiant que la station appelante a un message très urgent..."
+        "C": "Signal signifiant qu’un aéronef a un message très urgent à transmettre concernant sa sécurité",
+        "D": " Signal signifiant que la station appelante a un message très urgent à transmettre concernant la sécurité d'un aéronef."
       },
       "reponse_correcte": "B"
     },
@@ -5469,9 +5469,9 @@
       "id": 97,
       "question": "Un signal d’urgence se définit comme un :",
       "options": {
-        "A": "Signal signifiant que la station appelante a un message...",
-        "B": "Signal émanant d'un aéronef et indiquant détournement violent ;",
-        "C": "Signal émanant d'un aéronef et indiquant danger grave...",
+        "A": "Signal signifiant que la station appelante a un message très urgent à transmettre concernant la sécurité d'un aéronef",
+        "B": "Signal émanant d'un aéronef et indiquant que ce dernier est sous la menace d'un détournement violent;",
+        "C": "Signal émanant d'un aéronef et indiquant que ce dernier est sous la menace d'un danger grave et imminent et demande une assistance immédiate ",
         "D": "Signal signifiant qu’un aéronef a un message très urgent à transmettre concernant sa sécurité ;"
       },
       "reponse_correcte": "D"
@@ -6670,9 +6670,9 @@
       "id": 6,
       "question": "Dans le cas d’une navigation à l’estime, quand peut-on considérer que la séparation latérale réglementaire est assurée entre deux aéronefs ?",
       "options": {
-        "a": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent de 45 degrés au plus, que l’un des aéronefs se trouve à une distance de 15 NM ou plus du point d’intersection des routes...",
-        "b": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d’au moins 30 degrés...",
-        "c": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d’au moins 25 degrés...",
+        "a": " Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent de 45 degrés au plus, que l’un des aéronefs se trouve à une distance de 15 NM ou plus du point d’intersection des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point ;",
+        "b": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d’au moins 30 degrés, que l’un des aéronefs se trouve à une distance de 15 NM ou plus du point d’intersection des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point ;",
+        "c": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d’au moins 30 degrés, que l’un des aéronefs se trouve à une distance de 15 NM ou plus du point d’intersection des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point ;",
         "d": "Lorsque les aéronefs sont tous deux stabilisés sur des routes qui divergent d’au moins 45 degrés, que l’un des aéronefs se trouve à une distance de 15 NM ou plus du point d’intersection des routes, ce dernier étant déterminé visuellement ou par référence à une aide de navigation, et que les deux aéronefs sont stabilisés en éloignement par rapport à ce point."
       },
       "reponse_correcte": "d"
@@ -7064,7 +7064,7 @@
     },
     {
       "id": 42,
-      "question": "Le centre d’information de vol (CIV ou FIC) assure le service d’information de vol en fournissant les renseignements sur la circulation aérienne... :",
+      "question": "Le centre d’information de vol (CIV ou FIC) assure le service d’information de vol en fournissant les renseignements sur la circulation aérienne, la météorologie, le fonctionnement des installations, l’état des aérodromes et tout autre renseignement jugé utile pour le déroulement des vols ::",
       "options": {
         "a": "Au bénéfice des vols VFR évoluant dans la FIR ;",
         "b": "Au bénéfice des vols non contrôlés IFR et VFR évoluant dans la FIR ;",
@@ -7649,10 +7649,10 @@
       "id": 95,
       "question": "Une phase d’incertitude (INCERFA) est :",
       "options": {
-        "a": "Situation dans laquelle on peut craindre pour la sécurité d'un aéronef... ;",
+        "a": "Situation dans laquelle on peut craindre pour la sécurité d'un aéronef et de ses occupants.",
         "b": "Situation dans laquelle il y a lieu de douter de la sécurité d'un aéronef et de ses occupants ;",
         "c": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef est en danger ;",
-        "d": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef et ses occupants sont menacés d'un danger grave..."
+        "d": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef et ses occupants sont menacés d'un danger grave et imminent et qu'ils ont besoin d'un secours immédiat."
       },
       "reponse_correcte": "b"
     },
@@ -7661,9 +7661,9 @@
       "question": "Une phase d’alerte (ALERFA) est :",
       "options": {
         "a": "Situation dans laquelle on peut craindre pour la sécurité d'un aéronef et de ses occupants ;",
-        "b": "Situation dans laquelle il y a lieu de douter de la sécurité d'un aéronef... ;",
+        "b": "Situation dans laquelle il y a lieu de douter de la sécurité d'un aéronef et de ses occupants;",
         "c": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef est en danger ;",
-        "d": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef et ses occupants sont menacés..."
+        "d": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef et ses occupants sont menacés d'un danger grave et imminent et qu'ils ont besoin d'un secours immédiat."
       },
       "reponse_correcte": "a"
     },
@@ -7671,8 +7671,8 @@
       "id": 97,
       "question": "Une phase de détresse (DETRESFA) est :",
       "options": {
-        "a": "Situation dans laquelle on peut craindre pour la sécurité... ;",
-        "b": "Situation dans laquelle il y a lieu de douter de la sécurité... ;",
+        "a": "Situation dans laquelle on peut craindre pour la sécurité d'un aéronef et de ses occupants. ;",
+        "b": "Situation dans laquelle il y a lieu de douter de la sécurité d'un aéronef et de ses occupants ;",
         "c": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef est en danger ;",
         "d": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef et ses occupants sont menacés d'un danger grave et imminent et qu'ils ont besoin d'un secours immédiat."
       },
@@ -7684,8 +7684,8 @@
       "options": {
         "a": "Signal émanant d'un aéronef et indiquant détournement violent ;",
         "b": "Signal émanant d'un aéronef et indiquant qu'il est sous la menace d'un danger grave et imminent et demande une assistance immédiate ;",
-        "c": "Signal signifiant qu’un aéronef a un message très urgent... ;",
-        "d": "Signal signifiant que la station appelante a un message très urgent..."
+        "c": "Signal signifiant qu’un aéronef a un message très urgent à transmettre concernant sa sécurité;",
+        "d": "Signal signifiant que la station appelante a un message très urgent à transmettre concernant la sécurité d'un aéronef"
       },
       "reponse_correcte": "b"
     },
@@ -7694,7 +7694,7 @@
       "question": "Un signal d’urgence se définit comme un :",
       "options": {
         "a": "Signal émanant d'un aéronef et indiquant détournement violent ;",
-        "b": "Signal émanant d'un aéronef et indiquant danger grave... ;",
+        "b": "Signal émanant d'un aéronef et indiquant que ce dernier est sous la menace d'un danger grave et imminent et demande une assistance immédiate ;",
         "c": "Signal signifiant qu’un aéronef a un message très urgent à transmettre concernant sa sécurité ;",
         "d": "Signal signifiant que la station appelante a un message très urgent à transmettre concernant la sécurité d'un aéronef."
       },
