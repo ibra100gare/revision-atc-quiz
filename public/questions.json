@@ -7314,7 +7314,7 @@
         "d": "Non doté de procédures d’approche aux instruments."
       },
       "reponse_correcte": "c"
-    },
+    }, 
     {
       "id": 65,
       "question": "Les formats de strips utilisés à l’ASECNA sont de deux sortes, qui sont :",
@@ -7710,6 +7710,2079 @@
         "d": "Aux messages de plans de vol déposés, aux messages de retard et aux messages d’estimées."
       },
       "reponse_correcte": "c"
+    }
+  ],
+  "GUIDAGE_REVISION": [
+    {
+      "id": 1,
+      "question": "Dans le cadre du guidage radar, le minimum de séparation c’est :",
+      "options": {
+        "A": "La distance verticale réglementaire à appliquer dans un espace aérien",
+        "B": "La distance horizontale réglementaire à appliquer dans un espace aérien",
+        "C": "La distance horizontale réglementaire à appliquer dans une TMA",
+        "D": "La distance horizontale réglementaire à appliquer dans un espace aérien non contrôlé"
+      },
+      "reponse_correcte": "B"
+    },
+    {
+      "id": 2,
+      "question": "La distance minimale est définie comme :",
+      "options": {
+        "A": "Une distance horizontale minimale qui est atteinte entre deux avions qui passe un point au même moment",
+        "B": "Une distance horizontale limite qui est atteinte entre deux avions en évolution",
+        "C": "Une distance horizontale minimale qui est atteinte entre deux avions espacé de 10NM",
+        "D": "Une distance horizontale minimale qui est atteinte entre deux avions"
+      },
+      "reponse_correcte": "D"
+    },
+    {
+      "id": 3,
+      "question": "La distance à midi est :",
+      "options": {
+        "A": "La distance entre deux avions quand le premier voit le point de croisement",
+        "B": "La distance entre deux avions quand le premier passe le point de croisement",
+        "C": "La distance entre deux avions quand le premier se trouve au 180° du point de croisement",
+        "D": "La distance entre deux avions quand le premier passe se trouve à 10NM croisement"
+      },
+      "reponse_correcte": "B"
+    },
+    {
+      "id": 4,
+      "question": "Le but du guidage Radar est de :",
+      "options": {
+        "A": "Etablir et maintenir entre deux avions une distance minimale supérieure au minimum de séparation RADAR",
+        "B": "Etablir et maintenir entre deux avions une distance réglementaire supérieure au minimum de séparation RADAR",
+        "C": "Etablir et/ou maintenir entre deux avions une distance minimale supérieure au minimum de séparation RADAR",
+        "D": "Etablir et/ou maintenir entre deux avions une distance réglementaire supérieure au minimum de séparation RADAR"
+      },
+      "reponse_correcte": "C"
+    },
+    {
+      "id": 5,
+      "question": "Pour décider si un guidage est nécessaire, un contrôleur Radariste doit :",
+      "options": {
+        "A": "Evaluer et comparer la distance mini entre les avions par rapport au point de croisement prescrit",
+        "B": "Evaluer la séparation mini entre les avions et comparer avec minimum de séparation prescrit",
+        "C": "Evaluer et comparer la distance entre les avions avec minimum de séparation prescrit",
+        "D": "Evaluer et comparer la distance mini entre les avions avec minimum de séparation prescrit"
+      },
+      "reponse_correcte": "D"
+    },
+    {
+      "id": 6,
+      "question": "La vitesse figurant sur l’étiquette des avions apparaitra sous forme de :",
+      "options": {
+        "A": "Vitesse indiquée",
+        "B": "Vitesse sol",
+        "C": "Vitesse propre",
+        "D": "Aucune d’entre elles"
+      },
+      "reponse_correcte": "B"
+    },
+    {
+      "id": 7,
+      "question": "Un TR doit être définie dans :",
+      "options": {
+        "A": "Règlementation de la CA",
+        "B": "Document OACI",
+        "C": "Le manuel d’exploitation",
+        "D": "Les lettres d’accord"
+      },
+      "reponse_correcte": "C"
+    },
+    {
+      "id": 8,
+      "question": "Le déclanchement du STCA en guidage radar signifie :",
+      "options": {
+        "A": "Une réduction de la norme de séparation",
+        "B": "Une réduction du minimum de séparation",
+        "C": "Une réduction de l’espacement vertical",
+        "D": "A et C"
+      },
+      "reponse_correcte": "B"
+    },
+    {
+      "id": 9,
+      "question": "Le BRL permet de mesurer :",
+      "options": {
+        "A": "Le cap",
+        "B": "L’azimut",
+        "C": "Le gisement",
+        "D": "Aucune d’entre eux"
+      },
+      "reponse_correcte": "B"
+    },
+    {
+      "id": 10,
+      "question": "Le point de croisement est :",
+      "options": {
+        "A": "L’intersection des trajectoires de deux avions",
+        "B": "L’intersection de deux routes de deux avions",
+        "C": "Le point de croisement de deux routes de deux avions",
+        "D": "Le point de convergence de deux routes de deux avions"
+      },
+      "reponse_correcte": "A"
+    },
+    {
+      "id": 11,
+      "question": "La distance mini c’est :",
+      "options": {
+        "A": "La distance la plus courte lorsque l’avion 1 évoluant de la gauche vers la droite passe dans les 10h de l’avion 2",
+        "B": "La distance la plus courte lorsque l’avion 1 évoluant de la droite vers la gauche passe dans le midi de l’avion 2",
+        "C": "La distance la plus courte lorsque l’avion 1 évoluant de la gauche vers la droite passe dans les 2h de l’avion 2",
+        "D": "La distance la plus courte lorsque l’avion 1 évoluant de la droite vers la gauche passe dans les 2h de l’avion 2"
+      },
+      "reponse_correcte": "C"
+    },
+    {
+      "id": 12,
+      "question": "La distance minimale est suffisante :",
+      "options": {
+        "A": "Si elle est supérieure au minimum de séparation augmenté d’une marge de 10NM que vous vous fixez",
+        "B": "Si elle est inférieure au minimum de séparation augmenté d’une marge de 10NM que vous vous fixez",
+        "C": "Si elle est supérieure au minimum de séparation augmenté d’une marge que vous vous fixez",
+        "D": "Si elle est égale au minimum de séparation augmenté d’une marge de 15NM que vous vous fixez"
+      },
+      "reponse_correcte": "C"
+    },
+    {
+      "id": 13,
+      "question": "A quel moment peut-on autoriser les avions à reprendre leur navigation en guidage radar ?",
+      "options": {
+        "A": "Lorsqu’on est sûr que le minimum de séparation est acquis, (trajectoires sont divergentes) et que la nouvelle route ne va pas augmenter la distance entre les deux au-dessus du minimum de séparation + votre marge",
+        "B": "Lorsqu’on est sûr que le minimum de séparation est acquis, en diminution (trajectoires sont divergentes) et que la nouvelle route ne va pas augmenter la distance entre les deux en-dessous du minimum de séparation + votre marge",
+        "C": "Lorsqu’on est sûr que le minimum de séparation est acquis, en augmentation (trajectoires sont divergentes) et que la nouvelle route ne va pas ramener la distance entre les deux en-dessous du minimum de séparation + votre marge",
+        "D": "Lorsqu’on est sûr que le minimum de séparation n’est pas acquis, en augmentation (trajectoires sont divergentes) et que la nouvelle route ne va pas ramener la distance entre les deux en-dessous du minimum de séparation + distance mini"
+      },
+      "reponse_correcte": "C"
+    },
+    {
+      "id": 14,
+      "question": "La mise en parallèle, ou en parallèle inverse consiste :",
+      "options": {
+        "A": "A maintenir un avion à travers le niveau d’un autre avion, pour faire doubler (ou parfois pour livrer deux avions au secteur suivant)",
+        "B": "A descendre un avion à travers le niveau d’un autre avion, pour faire doubler (ou parfois pour livrer deux avions au secteur suivant)",
+        "C": "A monter un avion à travers le niveau d’un autre avion, pour faire doubler (ou parfois pour livrer deux avions au secteur suivant)",
+        "D": "A monter/descendre un avion à travers le niveau d’un autre avion, pour faire doubler (ou parfois pour livrer deux avions au secteur suivant)"
+      },
+      "reponse_correcte": "D"
+    },
+    {
+      "id": 15,
+      "question": "Les questions que l’on doit se poser en cas d’une mise en parallèle sont :",
+      "options": {
+        "A": "Le guidage est-il nécessaire ? Quel avion tourner ? Quelles actions à mener ? Quelle est la distance mini ?",
+        "B": "Le guidage est-il nécessaire ? Quelles actions à mener ? Quelle est la distance mini ? Quand remettre les avions sur leur route ?",
+        "C": "Le guidage est-il nécessaire ? Quel avion tourner ? Quelles actions à mener ? Quand remettre les avions sur leur route ?",
+        "D": "Quel avion tourner ? Quelles actions à mener ? Quelle est la distance mini ? Quand remettre les avions sur leur route ?"
+      },
+      "reponse_correcte": "C"
+    },
+    {
+      "id": 16,
+      "question": "Pour assurer un TR entre deux aéronefs suivant la même route et même sens espacés de 15NM, il faut :",
+      "options": {
+        "A": "S’assurer que les types avions sont compatibles, bloquer les vitesses, tourner le deuxième pour mettre 15NM minimum entre les deux avions, ne pas hésiter à donner un cap important pour que la distance soit créée rapidement.",
+        "B": "Bloquer les vitesses, tourner le deuxième pour mettre 15 NM minimum entre les deux avions, ne pas hésiter à donner un cap important pour que la distance soit créée rapidement, faire monter ou descendre l’aéronef au niveau demandé et coordonner le TR au centre adjacent.",
+        "C": "Tourner le deuxième pour mettre 15NM minimum entre les deux avions, ne pas hésiter à donner un cap important pour que la distance soit créée rapidement, faire monter ou descendre l’aéronef au niveau demandé et coordonner le TR au centre adjacent, s’assurer que les types avions sont compatibles.",
+        "D": "Faire monter ou descendre l’aéronef au niveau demandé et coordonner le TR au centre adjacent, s’assurer que les types avions sont compatibles."
+      },
+      "reponse_correcte": "B"
+    },
+    {
+      "id": 17,
+      "question": "Quel est le minimum de séparation radar en approche au centre de NKT ?",
+      "options": {
+        "A": "5 NM",
+        "B": "10 NM",
+        "C": "15 NM",
+        "D": "20 NM"
+      },
+      "reponse_correcte": "A"
+    },
+    {
+      "id": 18,
+      "question": "La mise en place d’un guidage radar entre deux aéronefs en conflit à plat doit commencer entre :",
+      "options": {
+        "A": "8 à 10 min du point de conflit",
+        "B": "4 et 5 min du point de conflit",
+        "C": "5 et 7 min du point de conflit",
+        "D": "3 et 7 min du point de conflit"
+      },
+      "reponse_correcte": "C"
+    },
+    {
+      "id": 19,
+      "question": "Un avion A et un avion B convergent sous un angle de 98° vers un point donné. L’avion B est le premier au point de croisement et il voit l’avion A sur sa gauche. La distance entre les deux avions lorsque l’avion B passe le point de croisement s’appelle :",
+      "options": {
+        "A": "La distance mini",
+        "B": "La distance mini au point de croisement",
+        "C": "La distance à midi",
+        "D": "Aucune réponse juste"
+      },
+      "reponse_correcte": "C"
+    },
+    {
+      "id": 20,
+      "question": "Un avion A et un avion B convergent sous un angle de 45° vers un point donné. L’avion A est le premier au point de croisement et il voit l’avion B sur sa gauche. La distance mini est :",
+      "options": {
+        "A": "La distance entre les deux avions lorsque l’avion A voit l’avion B dans ses 2h",
+        "B": "La distance entre les deux avions lorsque l’avion A voit l’avion B dans ses 12h",
+        "C": "La distance entre les deux avions lorsque l’avion A passe dans les 10h de l’avion B",
+        "D": "La distance entre les deux avions lorsque l’avion B voit l’avion A dans ses 2h"
+      },
+      "reponse_correcte": "A"
+    }
+  ],
+  "JANVIER_2023_ICA_PROCEDURES": [
+    {
+      "id": 1,
+      "question": "Cap conditionné par une altitude/ heading triggered by an altitude, complétez le tableau par des chiffres correspondants pour un changement de cap quatre-vingt-dix en tournant à droite passant niveau soixante pour SKK056",
+      "options": {
+        "Français": "Contrôleur SKK056, Cotonou radar passant niveau de vol 70, tournez à droite cap 090° / Pilote Passant FL70, tournons à droite cap 090°, SKK056",
+        "English": "Controller SKK056, Cotonou radar, passing FL70, turn right heading 090° / Pilot passing FL70, turn right heading 090° SKK056"
+      },
+      "reponse_correcte": "Passant FL70, tournons à droite cap 090°"
+    },
+    {
+      "id": 2,
+      "question": "Les TMAs à l’ASECNA sont des espaces aériens :",
+      "options": {
+        "a": "non contrôlés ;",
+        "b": "de classe D ;",
+        "c": "de classe A ;",
+        "d": "à service consultatif."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 3,
+      "question": "Deux aéronefs sont espacés s'il existe entre eux :",
+      "options": {
+        "a": "un intervalle exprimé en distance horizontale, en différence de niveaux ou en temps ;",
+        "b": "un intervalle exprimé en distance horizontale, en différence de niveaux ou en temps de vol supérieur ou égal à un minimum spécifié ;",
+        "c": "un intervalle exprimé en distance horizontale, en différence de niveaux ou en temps de vol et que l'un des aéronefs ait reçu une clairance de séparation à vue ;",
+        "d": "un intervalle exprimé en distance horizontale, en différence de niveaux ou en temps de vol et que les deux aéronefs sont en vue l’un de l’autre."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 4,
+      "question": "Deux avions se suivent au départ et leurs routes divergent d’au moins 45° aussitôt après décollage. Le 1er décolle à 1635, le 2ème décollera au plus tôt à :",
+      "options": {
+        "a": "16h37 ;",
+        "b": "16h40 ;",
+        "c": "16h36 ;",
+        "d": "16h45."
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 5,
+      "question": "Qu’est-ce que le dispositif de suivi de l’altitude (altitude tracker) fournit au système pour chaque piste?",
+      "options": {
+        "a": "le niveau mode C, indication de l’attitude (l’a/c est il en montée, en palier ou en descente?), taux de montée ou de descente ;",
+        "b": "indication de l’attitude (l’a/c est il en montée, en palier ou en descente?), taux de montée ou de descente, Niveau de vol autorisé ;",
+        "c": "vitesse, Niveau mode C, indication de l’attitude (l’a/c est il en montée, en palier ou en descente?) ;",
+        "d": "niveau mode C, taux de montée ou de descente, catégorie de turbulence de sillage."
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 6,
+      "question": "Quel est le mode radar qui correspond aux situations suivantes ? ◼ panne du MTP, ou mono radar sélectionné par le contrôleur ◼ les données piste fournies directement par le RTP ◼ un seul radar est programmé pour chaque position ◼ les pistes de chaque radar peuvent être affichées avec ou sans correction de distance oblique",
+      "options": {
+        "a": "mode normal ;",
+        "b": "mode mono radar ;",
+        "c": "mode bypass ;",
+        "d": "mode radar dégradé."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 7,
+      "question": "La clairance VMC c'est:",
+      "options": {
+        "a": "une clairance complémentaire accordée à un aéronef en vol VFR lui permettant, sur sa demande, en VMC, de s'affranchir des espacements réglementaires vis à vis de tous les autres aéronefs en vol IFR et d'assurer sa propre séparation par rapport à ceux-ci ;",
+        "b": "une clairance complémentaire accordée à un aéronef en vol IFR lui permettant, sur sa demande, en VMC, de s'affranchir des espacements réglementaires vis à vis de tous les autres aéronefs en vol IFR et d'assurer sa propre séparation par rapport à ceux-ci ;",
+        "c": "une clairance complémentaire accordée à un aéronef en vol IFR lui permettant, en VMC, de s'affranchir des espacements réglementaires vis à vis de tous les autres aéronefs en vol IFR et d'assurer sa propre séparation par rapport à ceux-ci ;",
+        "d": "une clairance complémentaire accordée à un aéronef en vol IFR lui permettant, sur sa demande, de s'affranchir des espacements réglementaires vis à vis de tous les autres aéronefs en vol IFR et d'assurer sa propre séparation par rapport à ceux-ci."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 8,
+      "question": "Séparation entre secteur d’attente et secteur de départ : La séparation entre les secteurs d’attente et de départ se fait par la définition des radiales de garde par rapport au repère d’attente. Les radiales de garde sont définies de sorte que tout départ soit établi sur une route faisant un écart angulaire d’au moins …° par rapport à l’axe nominal de l’attente.",
+      "options": {
+        "angle": "Valider l'écart angulaire requis."
+      },
+      "reponse_correcte": "15°"
+    },
+    {
+      "id": 9,
+      "question": "Que se passe-t-il quand “no code table for category of flight” est active?",
+      "options": {
+        "a": "seuls les codes gelés sont attribués ;",
+        "b": "il n’y a pas d’attribution de code ;",
+        "c": "seul le code “RADTAG” est attribué ;",
+        "d": "il y a attribution de code parmi soit les codes gelés, soit les codes les plus anciennement attribués ou soit les codes libres."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 10,
+      "question": "Quand est-il possible d’attribuer les codes SSR manuellement ?",
+      "options": {
+        "a": "tout le temps pour les codes non discrets et tant que le groupe de codes est activé pour les codes discrets ;",
+        "b": "tout le temps pour les codes non discrets et tant que le groupe de codes est désactivé pour les codes discrets ;",
+        "c": "tout le temps aussi bien pour les codes non discrets que pour les codes discrets ;",
+        "d": "seulement pour le RADTAG."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 11,
+      "question": "Les conditions sont VMC en espace aérien non contrôlé en dessous de la surface S si:",
+      "options": {
+        "a": "VIS1500 m, dans les nuages ;",
+        "b": "VIS500 m, Hors des nuages ;",
+        "c": "VIS1500 m, Hors des nuages ;",
+        "d": "VIS8 km, Hors des nuages."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 12,
+      "question": "Le dépôt du plan de vol est obligatoire :",
+      "options": {
+        "a": "pour les vols IFR ;",
+        "b": "pour les vols VFR ;",
+        "c": "pour les vols IFR et VFR ;",
+        "d": "pour tous les vols en espace aérien contrôlés."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 13,
+      "question": "Deux aéronefs B1 et B2 de même performance suivent la même route en sens inverse. Ils sont respectivement à 70 NM et 120 NM de part et d’autre d’un même point de compte-rendu CR qui est une station DME. A Quelle distance du point compte-rendu l’avion B1 peut croiser le niveau de vol de B2. ?",
+      "options": {
+        "a": "quand B1 est à 10 NM après PR ;",
+        "b": "quand B2 est à 20 NM avant le point de compte-rendu ;",
+        "c": "quand B2 est à 15 NM avant PR ;",
+        "d": "B1 peut croiser le niveau de vol de B2 à n’importe quelle distance avant la PR."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 14,
+      "question": "Minimums de séparation longitudinale en fonction de la distance RNAV (avec RNP) avec utilisation de l’ADS-C. Complétez la distance minimale requise (PANS-ATM) en chiffres pour 50 NM et 30 NM.",
+      "options": {
+        "50 NM": "Intervalle maximal entre les comptes rendus de position ADS C : 27min ou 32min ?",
+        "30 NM": "Intervalle maximal entre les comptes rendus de position ADS C : 12min ou 14min ?",
+        "5 minutes": "Intervalle maximal entre les comptes rendus de position ADS C : 14min ?"
+      },
+      "reponse_correcte": "50 NM / 10 / 27min | 30 NM / 4 / 12min | 5 minutes / 4 / 14min"
+    },
+    {
+      "id": 15,
+      "question": "Un aéronef en IFR arrive par une route dont le plancher est le FL055. L’altitude minimale de secteur est de 2800 pieds dans un rayon de 25 NM. Quel est le niveau de vol le plus bas auquel l’aéronef peut être autorisé à descendre avant les 25 NM ?",
+      "options": {
+        "a": "le niveau de transition ;",
+        "b": "l’altitude de transition ;",
+        "c": "l’altitude minimale de secteur ;",
+        "d": "le FL060."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 16,
+      "question": "Qui initie le “CMA logon”",
+      "options": {
+        "a": "l’aéronef;",
+        "b": "le contrôleur;",
+        "c": "ni (a), ou (b) ci-dessus ;",
+        "d": "(a) et (b) ci-dessus"
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 17,
+      "question": "Dans la fenêtre “historique” du CPDLC, pour afficher le contenu complet d’un message CPDLC, le contrôleur doit :",
+      "options": {
+        "a": "cliquer gauche sur l’indicatif d’appel du message affiché ;",
+        "b": "cliquer centre sur l’indicatif d’appel du message affiché ;",
+        "c": "cliquer droit sur l’indicatif d’appel du message affiché ;",
+        "d": "cliquer gauche sur le texte du massage affiché."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 18,
+      "question": "Dans un espace aérien de classe C :",
+      "options": {
+        "a": "aucun vol n’est contrôlé ;",
+        "b": "tous les vols sont contrôlés ;",
+        "c": "seuls les vols IFR sont contrôlés ;",
+        "d": "seuls les vols VFR sont contrôlés."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 19,
+      "question": "Qu’est-ce qu’indique le FOM (figures of merit) dans le groupe de données de base ADS?",
+      "options": {
+        "a": "la précision avec laquelle l’aéronef peut déterminer sa vitesse ;",
+        "b": "la précision avec laquelle l’aéronef peut déterminer son niveau de vol ou son altitude ;",
+        "c": "la précision avec laquelle l’aéronef peut donner l’heure ;",
+        "d": "la précision avec laquelle l’aéronef peut déterminer sa position"
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 20,
+      "question": "Dans les espaces aériens gérés par l’ASECNA, les vols VFR sont autorisés :",
+      "options": {
+        "a": "Jusqu’au FL095;",
+        "b": "Jusqu’au FL145 ;",
+        "c": "Entre le FL 095 et le FL145;",
+        "d": "Entre le FL145 et le FL245."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 21,
+      "question": "L’échelle de lisibilité 2/5 signifie :",
+      "options": {
+        "a": "Lisible par instants ;",
+        "b": "Lisible mais difficilement ;",
+        "c": "Illisible ;",
+        "d": "Lisible mais brouillé."
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 22,
+      "question": "La séparation latérale peut être assurée par les moyens suivants :",
+      "options": {
+        "a": "Par référence aux limites des frontières terrestres et maritimes, par des points géographiques ou à des points géographiques différents, par d’un NDB, d’un VOR des routes ATS admises ;",
+        "b": "Par référence aux mêmes points géographiques ou à des points géographiques différents, par l’utilisation d’un NDB, d’un VOR ou du GNSS sur des routes ou routes ATS sécantes ;",
+        "c": "Par des points cartographiques et géométriques différents, par l’utilisation d’un NDB, d’un VOR/DME ou du GNSS sur des routes ATS convergentes ou sécantes ;",
+        "d": "Au moyen des points géographiques ou à des points géographiques différents, par l’utilisation d’une fréquence VHF, d’un NDB, d’un VOR ou du GNSS lorsqu’ils sont opérationnels sur des routes ATS régionales."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 23,
+      "question": "La fonction « données de vol » du Topsky utilise la trajectoire et les secteurs volumétriques du FDR (flight data record) pour déterminer :",
+      "options": {
+        "a": "La distribution des strips & les transferts automatiques ;",
+        "b": "La distribution des strips & les messages de coordination système ;",
+        "c": "Les transferts automatiques & les messages de coordination système ;",
+        "d": "La distribution des strips, & les transferts automatiques & les messages de coordination système."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 24,
+      "question": "LE VOR permet au pilote :",
+      "options": {
+        "a": "de relever le QFU ;",
+        "b": "de s'orienter ;",
+        "c": "de se positionner ;",
+        "d": "de s'orienter et de se positionner."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 25,
+      "question": "L'A D F permet au pilote de :",
+      "options": {
+        "a": "de lire l’altitude ;",
+        "b": "de s'orienter ;",
+        "c": "de se positionner ;",
+        "d": "de s'orienter et de se positionner."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 26,
+      "question": "Au premier contact avec un aéronef à l’arrivée, il lui est fourni un type de MTO :",
+      "options": {
+        "a": "le dernier METAR de l’aérodrome ;",
+        "b": "le dernier TAF en cours de validité ;",
+        "c": "l’OBSMET en cours de validité ;",
+        "d": "le MET Report en cours de validité."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 27,
+      "question": "Vous êtes Contrôleur Organique (PLC) ; vous entendez votre Contrôleur Exécutif (EC) avertir sur la fréquence opérationnelle : « ALL STATIONS, ALL STATIONS, DATALINK SHUTDOWN, SELECT ATC COM OFF, CONTINUE ON VOICE ». Cette information signifie que :",
+      "options": {
+        "a": "le EC n’enverra plus de données sol/air ;",
+        "b": "le FDP et l’ASD sont en panne ;",
+        "c": "l’AGDP est en panne ;",
+        "d": "l’ASD est en panne."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 28,
+      "question": "Une route RNAV est :",
+      "options": {
+        "a": "Une route ATS établie à l’usage des aéronefs qui utilisent la navigation à l’estime ;",
+        "b": "Un itinéraire prédéterminé entre deux VOR distant de moins de 200 NM dans un espace aérien contrôlé ;",
+        "c": "Une route ATS établie à l’usage des aéronefs longs courriers qui utilisent la navigation satellitaire ;",
+        "d": "Une route ATS établie à l’usage des aéronefs qui peuvent utiliser la navigation de surface."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 29,
+      "question": "Une autorisation de contrôle de la circulation aérienne est :",
+      "options": {
+        "a": "une autorisation accordée à un aéronef de manœuvrer pour rejoindre le niveau de vol spécifié au plan de vol déposé;",
+        "b": "une instruction accordée à un aéronef de manœuvrer dans des conditions spécifiées pour éviter un autre aéronef;",
+        "c": "une autorisation accordée à un aéronef de manœuvrer dans des conditions spécifiées par un organisme de contrôle de la circulation aérienne;",
+        "d": "une autorisation accordée à un aéronef de pénétrer dans un espace aérien contrôlé."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 30,
+      "question": "Un aéronef au FL310 évolue sur les tronçons de route AB (cap 170°), BC (cap 215°) et CD (cap 265°). Il doit monter au FL320 ou descendre au FL300 :",
+      "options": {
+        "a": "au point C ;",
+        "b": "sur le tronçon AB ;",
+        "c": "au point B ;",
+        "d": "ne peut pas changer de niveau."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 31,
+      "question": "D’où la fonction données de vol (FDF) du Topsky tire-t-elle les éléments de la route pour calculer le profil d’un FDR :",
+      "options": {
+        "a": "informations de trajectoire tirées du FDP ;",
+        "b": "aérodromes de départ et de destination et les points de la route ;",
+        "c": "aérodrome de départ, aérodrome de destination & Case 15 du plan de vol OACI ;",
+        "d": "aérodrome de départ, aérodrome de destination & Cases 10, 12 & 15 du plan de vol OACI."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 32,
+      "question": "Quel est le délai maximal pendant lequel un plan de vol peut être déposé avant son entrée en vigueur ?",
+      "options": {
+        "a": "120 minutes ;",
+        "b": "120 heures ;",
+        "c": "30 minutes avant l’heure prévue de départ ;",
+        "d": "tant que le vol n'a pas été accompli."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 33,
+      "question": "Deux aéronefs B1 et B2 de même performance suivent la même route en sens inverse. A Quelle distance du point de croisement (PR) l’avion B1 peut croiser le niveau de vol de B2 ?",
+      "options": {
+        "e": "quand B1 est à 5 NM après PR ;",
+        "f": "quand B2 est à 10 NM après PR ;",
+        "g": "quand B2 est à 20 NM avant PR ;",
+        "h": "B1 peut croiser le niveau de vol de B2 à n’importe quelle distance avant la PR."
+      },
+      "reponse_correcte": "g"
+    },
+    {
+      "id": 34,
+      "question": "L'altitude de transition est :",
+      "options": {
+        "a": "l'altitude à laquelle et au-dessous de laquelle la position verticale d'un aéronef est donnée par son altitude ;",
+        "b": "l'altitude à laquelle et au-dessus de laquelle la position verticale d'un aéronef est donnée par son altitude ;",
+        "c": "l'altitude à laquelle et au-dessous de laquelle la position verticale d'un aéronef est donnée par son niveau de vol ;",
+        "d": "l'altitude à laquelle et au-dessus de laquelle la position verticale d'un aéronef est donnée par son niveau de vol."
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 35,
+      "question": "Pour les aéronefs en vols, dans quel cas les organismes ATC doivent-ils assurer l’espacement vertical ou horizontal ?",
+      "options": {
+        "a": "Entre tous les aéronefs dans l’espace aérien des classes A, B et C ;",
+        "b": "Entre tous les aéronefs dans l’espace aérien des classes A, B, D et E ;",
+        "c": "Entre tous les aéronefs dans l’espace aérien des classes A, B, C et D ;",
+        "d": "Entre tous les aéronefs dans l’espace aérien des classes A et B."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 36,
+      "question": "Dans lequel des cas suivants, les organismes ATC assureront l’espacement vertical ou horizontal entre les aéronefs en vols ?",
+      "options": {
+        "a": "Entre les vols IFR et les vols VFR dans l’espace aérien des classes C et D ;",
+        "b": "Entre les vols IFR et les vols VFR dans l’espace aérien de classe D ;",
+        "c": "Entre les vols IFR et les vols VFR dans l’espace aérien de classe C ;",
+        "d": "Entre les vols IFR et les vols VFR dans l’espace aérien de classe D et E."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 37,
+      "question": "Vous êtes Contrôleur Exécutif (EC) et vous recevez sur la fréquence opérationnelle : « ASECNA CONTROLE … VBW962, MONTEE TCAS, LIBERANT FL330 ». Devrez-vous répondre par :",
+      "options": {
+        "a": "Roger",
+        "b": "Rappelez RA TCAS terminé ;",
+        "c": "Wilco ;",
+        "d": "Rappellez passant prochain niveau."
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 38,
+      "question": "Une autorisation de contrôle de la circulation aérienne est :",
+      "options": {
+        "a": "Une autorisation accordée à un aéronef de manœuvrer pour rejoindre le niveau de vol spécifié au plan de vol déposé;",
+        "b": "Une instruction accordée à un aéronef de manœuvrer dans des conditions spécifiées pour éviter un autre aéronef;",
+        "c": "Une autorisation accordée à un aéronef de manœuvrer dans des conditions spécifiées par un organisme de contrôle de la circulation aérienne;",
+        "d": "Une autorisation accordée à un aéronef de pénétrer dans un espace aérien contrôlé."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 39,
+      "question": "La navigation de surface (RNAV) est définie comme étant :",
+      "options": {
+        "a": "Une méthode de navigation au plus près de la surface du sol ;",
+        "b": "Une méthode de navigation permettant le vol dans n’importe quelle trajectoire uniquement avec les moyens inertiels ;",
+        "c": "Une méthode de navigation permettant le vol dans n’importe quelle trajectoire voulue uniquement dans les limites de la couverture des aides à la navigation par satellite ;",
+        "d": "Une méthode de navigation permettant le vol dans n’importe quelle trajectoire voulue dans les limites de la couverture des aides à la navigation de référence ou dans les limites des possibilités d’une aide autonome ou grâce à la combinaison de ces deux moyens."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 40,
+      "question": "A quoi correspond le service qui fournit automatiquement et régulièrement des renseignements à jour aux aéronefs à l’arrivée et au départ ?",
+      "options": {
+        "a": "Service ADS ;",
+        "b": "Service ATS/DS ;",
+        "c": "Service ATIS ;",
+        "d": "Service ATS consultatif."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 41,
+      "question": "Une circulation à la surface d’un aéronef se caractérise par :",
+      "options": {
+        "a": "Déplacement d’un aéronef aux moyens d’un engin de remorquage sur les aires de mouvement ;",
+        "b": "Déplacement d’un aéronef aux moyens d’un engin de remorquage sur les voies de circulation ou les pistes d’atterrissage ;",
+        "c": "Vol rasant d’un aéronef au-dessus de la surface de l’eau ;",
+        "d": "Déplacement d’un aéronef, par ses propres moyens, à la surface d’un aérodrome, à l’exclusion des décollages et des atterrissages ;"
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 42,
+      "question": "Une limite d’autorisation est :",
+      "options": {
+        "a": "Le point à partir duquel une autorisation du contrôle de la circulation aérienne est valable ;",
+        "b": "Le point à partir duquel une autorisation du contrôle de la circulation aérienne entre en vigueur ;",
+        "c": "Le point jusqu’où est valable une autorisation du contrôle de la circulation aérienne accordée à un aéronef ;",
+        "d": "Le point jusqu’où une autorisation du contrôle de la circulation aérienne n’est pas valable."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 43,
+      "question": "En cas de réception d’un avis de résolution (RA) TCAS, un pilote :",
+      "options": {
+        "a": "vérifie l’exactitude de la RA avant de l’appliquer ;",
+        "b": "demande l’autorisation de l’organisme de contrôle avant d’appliquer la RA ;",
+        "c": "applique immédiatement la RA sans s’en référer à l’organisme de contrôle ;",
+        "d": "n’applique la RA que dans un espace aérien non contrôlé."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 44,
+      "question": "Une route RNAV est :",
+      "options": {
+        "a": "Une route ATS établie à l’usage des aéronefs qui utilisent la navigation à l’estime ;",
+        "b": "Un itinéraire prédéterminé entre deux VOR distant de moins de 200 NM dans un espace aérien contrôlé ;",
+        "c": "Une route ATS établie à l’usage des aéronefs longs courriers qui utilisent la navigation satellitaire ;",
+        "d": "Une route ATS établie à l’usage des aéronefs qui peuvent utiliser la navigation de surface."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 45,
+      "question": "En espace aérien RVSM et sous respect de la règle semi-circulaire :",
+      "options": {
+        "a": "tous les niveaux de croisière sont utilisables ;",
+        "b": "les niveaux de vol FL310, FL350, et FL390 ne sont pas utilisables ;",
+        "c": "les FL310, FL350, et FL390 sont toujours utilisables dans le sens Est/Ouest ;",
+        "d": "les FL310, FL350, et FL390 sont utilisables dans les deux sens."
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 46,
+      "question": "La clairance de séparation à vue est :",
+      "options": {
+        "a": "une clairance complémentaire accordée à plusieurs aéronefs en vol contrôlé au-dessus du FL100 leur permettant de s'affranchir des espacements réglementaires vis à vis des autres aéronefs contrôlés et d'assurer visuellement leur propre séparation, les uns par rapport aux autres ;",
+        "b": "une clairance complémentaire accordée à un aéronef en vol contrôlé en dessous du FL100 lui permettant de s'affranchir des espacements réglementaires vis à vis d'un seul autre aéronef contrôlé et d'assurer visuellement sa propre séparation par rapport à celui-ci ;",
+        "c": "une clairance complémentaire accordée à un aéronef en vol contrôlé en dessous du FL100 lui permettant de s'affranchir des espacements réglementaires vis à vis des autres aéronefs contrôlés et d'assurer visuellement sa propre séparation par rapport à ceux-ci ;",
+        "d": "une clairance complémentaire accordée à un aéronef en vol VFR contrôlé en dessous du FL100 lui permettant de s'affranchir des espacements réglementaires vis à vis d'un seul autre aéronef contrôlé et d'assurer visuellement sa propre séparation par rapport à celui-ci."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 47,
+      "question": "Pour une piste ADS, l’ADL (ADS level) est mis à jour :",
+      "options": {
+        "a": "chaque fois que le système met à jour son FDR ;",
+        "b": "Toutes les six (6) minutes;",
+        "c": "Seulement si le contrôleur le change ;",
+        "d": "seulement à la réception d’un compte rendu ADS."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 48,
+      "question": "Le filtrage des codes SSR est annulé par :",
+      "options": {
+        "a": "la sélection de la fonction “SSR ALL” ;",
+        "b": "aucune des deux réponses ci-dessus;",
+        "c": "la sélection de la fonction “QLK ALL” ;",
+        "d": "toutes les réponses ci-dessus."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 49,
+      "question": "En espace aérien RVSM et sous respect de la règle semi-circulaire :",
+      "options": {
+        "a": "tous les niveaux de croisière sont utilisables ;",
+        "b": "les niveaux de vol FL310, FL350, et FL390 ne sont pas utilisables ;",
+        "c": "les FL310, FL350, et FL390 sont toujours utilisables dans le sens Est/Ouest ;",
+        "d": "les FL310, FL350, et FL390 sont utilisables dans les deux sens."
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 50,
+      "question": "Les aéronefs d’État sont les aéronefs appartenant :",
+      "options": {
+        "a": "aux forces de police et de l’armée ;",
+        "b": "à l’armée et à la douane ;",
+        "c": "à l’armée, à la douane, à la police et à la Présidence de la République ;",
+        "d": "aux forces armées, à la douane et à la police."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 51,
+      "question": "Le message « UNABLE RVSM DUE EQUIPMENT » émis par un pilote, signifie que :",
+      "options": {
+        "a": "Les équipements de l’aéronef ne lui permettent plus de pouvoir respecter la RNP dans le plan vertical pour opérer dans l’espace aérien RVSM ;",
+        "b": "les équipements de l’aéronef ne lui permettent plus de pouvoir respecter la RNP dans le plan horizontal pour opérer dans l’espace aérien RVSM ;",
+        "c": "les équipements de l’aéronef mettent en doute son homologué RVSM ;",
+        "d": "l’aéronef demande un traitement d’urgence."
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 52,
+      "question": "Une circulation à la surface d’un aéronef se caractérise par :",
+      "options": {
+        "e": "Déplacement d’un aéronef aux moyens d’un engin de remorquage sur les aires de mouvement ;",
+        "f": "Déplacement d’un aéronef aux moyens d’un engin de remorquage sur les voies de circulation ou les pistes d’atterrissage ;",
+        "g": "Vol rasant d’un aéronef au-dessus de la surface de l’eau ;",
+        "h": "Déplacement d’un aéronef, par ses propres moyens, à la surface d’un aérodrome, à l’exclusion des décollages et des atterrissages."
+      },
+      "reponse_correcte": "h"
+    },
+    {
+      "id": 53,
+      "question": "Pour arrêter le signal sonore indiquant que le TIMER a atteint le top horaire sélectionné :",
+      "options": {
+        "a": "sur le clavier, il faut appuyer sur le bouton de la fonction ACK ;",
+        "b": "cliquer centre sur la case TIMER de la fenêtre d’information générale (GIW) ;",
+        "c": "cliquer gauche dans la case TIMER de la fenêtre d’information générale (GIW) ;",
+        "d": "cliquer droit dans la case TIMER de la fenêtre d’information générale (GIW)."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 54,
+      "question": "Les formats de strips utilisés à l’ASECNA sont de deux sortes, qui sont :",
+      "options": {
+        "a": "ENR et APR ;",
+        "b": "APP et TWR ;",
+        "c": "ACC et TMA ;",
+        "d": "ENR et TWR."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 55,
+      "question": "Sur l’écran (ASD), quel bouton du GIW utilisez vous pour afficher ou faire disparaître la traînée?",
+      "options": {
+        "a": "VEL;",
+        "b": "SRP;",
+        "c": "FPASD;",
+        "d": "HIST."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 56,
+      "question": "Pour les aéronefs en vols contrôlés, dans quel cas l’espacement vertical ou horizontal doit être toujours assuré ?",
+      "options": {
+        "a": "entre les vols IFR et les vols VFR spéciaux ;",
+        "b": "entre les vols VFR et les vols VFR spéciaux ;",
+        "c": "entre les vols IFR et les vols VFR ;",
+        "d": "entre tous les vols VFR."
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 57,
+      "question": "L’altitude d’un aérodrome est définie par :",
+      "options": {
+        "a": "l'altitude du point le plus élevé de l’aérodrome ;",
+        "b": "l’altitude du point le plus élevé de la piste AMV ;",
+        "c": "l’altitude du point la plus élevée de l’aire d’atterrissage ;",
+        "d": "L’altitude à laquelle ou au-dessous de laquelle la position est exprimée en altitude"
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 58,
+      "question": "Quel est le délai maximal pendant lequel un plan de vol peut être déposé avant son entrée en vigueur ?",
+      "options": {
+        "a": "120 minutes ;",
+        "b": "120 heures ;",
+        "c": "30 minutes avant l’heure prévue de départ ;",
+        "d": "tant que le vol n'a pas été accompli."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 59,
+      "question": "Quel bouton de la fenêtre plan de vol (FPW) utilisez-vous pour annuler l’heure de départ d’une piste plan de vol (flight plan track)?",
+      "options": {
+        "a": "BACK ;",
+        "b": "MOD ;",
+        "c": "CDEP ;",
+        "d": "CNL."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 60,
+      "question": "Que se passe-t-il quand vous entrez une information dans la case GLOBAL_OPS_INFO d’un strip électronique ?",
+      "options": {
+        "a": "l’information est seulement affichée sur la position du superviseur ;",
+        "b": "l’information n’est affichée que sur l’écran de votre position ;",
+        "c": "l’information est visible sur toutes les positions de contrôle où ledit strip est affiché ;",
+        "d": "l’information n’est affichée que sur l’étiquette piste (track label)."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 61,
+      "question": "Dans les espaces aériens gérés par l’ASECNA, l’embarquement de moyens de radiocommunications bilatérales est obligatoire :",
+      "options": {
+        "a": "pour les aéronefs IFR en espace aérien inférieur ;",
+        "b": "pour les aéronefs IFR et VFR en espace aérien inférieur ;",
+        "c": "pour les aéronefs IFR et VFR en espace aérien supérieur ;",
+        "d": "pour tous les aéronefs, quel que soit le régime de vol ;"
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 62,
+      "question": "La clairance initiale d’arrivée doit comprendre entre autres :",
+      "options": {
+        "a": "l’altitude de l’aérodrome d’arrivée ;",
+        "b": "l’altitude minimale de secteur ;",
+        "c": "la piste en service et la procédure prévue ;",
+        "d": "la piste en service et les procédures disponibles."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 63,
+      "question": "Une installation radioélectrique est dite implantée sur l’aérodrome lorsqu’elle se trouve :",
+      "options": {
+        "a": "dans le voisinage de l’aérodrome;",
+        "b": "à 2 Nm au plus de la piste;",
+        "c": "à moins de 1NM de la partie la plus proche de la piste concernée ;",
+        "d": "à plus de 0,5 NM du seuil de la piste concernée."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 64,
+      "question": "Dans la zone ASECNA, la nuit aéronautique :",
+      "options": {
+        "a": "commence 15 mn avant le coucher du soleil et finit 15 mn après le lever du soleil ;",
+        "b": "commence 15 mn avant le coucher du soleil et finit 15mn avant le lever du soleil ;",
+        "c": "période de la journée allant de 15 mn après le coucher du soleil à 15mn avant le lever du soleil;",
+        "d": "période de la journée allant de 15 mn après le coucher du soleil à 15mn après le lever du soleil."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 65,
+      "question": "Fonctions des boutons de la souris : le bouton centre permet d’afficher :",
+      "options": {
+        "a": "visualisation de la dernière manipulation (last command); Nom & type de balise; étiquette & route en vigueur; coordonnées géographiques ;",
+        "b": "noms et types des balises; coordonnées géographiques ;",
+        "c": "nom et type de balise; étiquette & route en vigueur ;",
+        "d": "nom & type de balise; coordonnées géographiques; visualisation de la dernière manipulation."
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 66,
+      "question": "Le “Short Route Probe” peut afficher la route plan de vol au devant d’un aéronef désigné pour",
+      "options": {
+        "a": "seulement des distances réglées ;",
+        "b": "seulement des intervalles de temps réglés ;",
+        "c": "l’une ou l’autre des deux réponses ci-dessus ;",
+        "d": "aucune des réponses ci-dessus."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 67,
+      "question": "Quels sont les vérifications effectuées par la fonction données de vol (Flight Data Function) avant la création d’un FDR ?",
+      "options": {
+        "a": "syntaxe & sémantique ;",
+        "b": "syntaxe, unicité & format ;",
+        "c": "aucune des réponses ci-dessus ;",
+        "d": "syntaxe, sémantique & unicité ;"
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 68,
+      "question": "L'heure d'approche prévue, c’est l’heure à laquelle :",
+      "options": {
+        "a": "un organisme du contrôle de la circulation aérienne prévoit qu'un aéronef atteindra le repère d’attente ;",
+        "b": "un organisme du contrôle de la circulation aérienne prévoit qu'un aéronef quittera le repère d'attente pour exécuter son approche en vue d’un atterrissage ;",
+        "c": "un organisme du contrôle de la circulation aérienne prévoit qu'un aéronef débutera son approche;",
+        "d": "s'achève la phase en route d'un vol."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 69,
+      "question": "Un aérodrome contrôlé est un aérodrome où le service :",
+      "options": {
+        "a": "du contrôle de la circulation aérienne est assuré au bénéfice des aéronefs évoluant dans la zone de contrôle (CTR) ;",
+        "b": "du contrôle de la circulation aérienne est assuré au bénéfice de la circulation d'aérodrome ;",
+        "c": "d’information de vol est assuré au bénéfice de la circulation aérienne ;",
+        "d": "du contrôle sol est assuré au bénéfice des aéronefs en IFR et en VFR."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 70,
+      "question": "Le contrôleur en charge d’un FDR peut utiliser le bouton HLD pour initier une attente",
+      "options": {
+        "a": "à la position actuelle de l’aéronef ;",
+        "b": "à seulement une position future le long de la route plan de vol ;",
+        "c": "indifféremment à la position actuelle, ou à une position passée ou future, le long de la route plan de vol ;",
+        "d": "indifféremment à la position actuelle ou à une position future le long de la route plan de vol ;"
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 71,
+      "question": "Où lit-on l’état plan de vol d’un FDR?",
+      "options": {
+        "a": "sur l’étiquette de la piste (track label) ;",
+        "b": "sur le strip électronique et dans la fenêtre plan de vol ;",
+        "c": "sur la position superviseur ;",
+        "d": "sur la position FDO ;"
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 72,
+      "question": "Une des fonctions suivantes n’est pas assurée par la fonction données de vol (flight data function) :",
+      "options": {
+        "a": "affichage des strips électroniques ;",
+        "b": "envoi de messages aux organes ATC externes ;",
+        "c": "affichage des étiquettes des pistes plan de vol ;",
+        "d": "traitement des données Radar."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 73,
+      "question": "L’image ci-contre, extraite d’un strip (flèche barrant FL350 vers 310 avec mention 46), a les significations suivantes :",
+      "options": {
+        "a": "L’aéronef arrive au FL350 ;",
+        "b": "L’aéronef stabilise au FL350 ;",
+        "c": "l’aéronef quitte le FL350 pour le FL310 ;",
+        "d": "L’aéronef passe le FL350 pour le FL310."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 74,
+      "question": "Laquelle des réponses suivantes est vrai à propos de la fenêtre des alarmes (warning window):",
+      "options": {
+        "a": "aucune de ces réponses suivantes n’est vraie ;",
+        "b": "la fenêtre est fermée automatiquement après un délai préprogrammé ;",
+        "c": "la fenêtre est fermée automatiquement après acquittement de tous les messages ;",
+        "d": "la fenêtre est fermée manuellement après acquittement de tous les messages."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 75,
+      "question": "Quels sont les contrôleurs qui reçoivent un strip électronique quand un FDR est en l’état plan de vol « INACTIVE » ?",
+      "options": {
+        "a": "aucune des réponses suivante ;",
+        "b": "les contrôleurs exécutif & organique ;",
+        "c": "seulement le contrôleur organique ;",
+        "d": "seulement le contrôleur exécutif."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 76,
+      "question": "Quelles sont les fonctionnalités disponibles à la position du contrôleur organique?",
+      "options": {
+        "a": "toutes les fonctionnalités disponibles aux positions des contrôleurs exécutifs sélectionnés par le superviseur ;",
+        "b": "toutes les fonctionnalités disponibles aux positions des contrôleurs exécutifs qu’il assiste ;",
+        "c": "toutes les fonctionnalités disponibles aux positions des contrôleurs exécutifs qu’il assiste. à l’exception de la prise d’un aéronef sous « JURISDICTION » ;",
+        "d": "aucune."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 77,
+      "question": "Vous avez sur votre écran un FDR affiché sous forme d’une piste de couleur vert clair & un strip électronique. Laquelle parmi les affirmations suivantes est vraie?",
+      "options": {
+        "a": "l’état du FDR est CONTROLLED & mais l’état de l’affichage IHM n’est pas JURISDICTION ;",
+        "b": "l’état du FDR est CONTROLLED & l’état de l’affichage IHM est JURISDICTION ;",
+        "c": "l’état du FDR est CONTROLLED & l’état de l’affichage IHM indique qu’il est en cours de transfert sous votre JURISDICTION ;",
+        "d": "aucune des réponses précédentes."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 78,
+      "question": "Un signal d’urgence se définit comme un :",
+      "options": {
+        "a": "Signal émanant d'un aéronef et indiquant que ce dernier est sous la menace d'un détournement violent ;",
+        "b": "Signal émanant d'un aéronef et indiquant que ce dernier est sous la menace d'un danger grave et imminent et demande une assistance immédiate ;",
+        "c": "Signal signifiant qu’un aéronef a un message très urgent à transmettre concernant sa sécurité ;",
+        "d": "Signal signifiant que la station appelante a un message très urgent à transmettre concernant la sécurité d'un aéronef."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 79,
+      "question": "La nature des messages ATS se rapportent exclusivement :",
+      "options": {
+        "a": "Aux messages de plans de vol déposés ;",
+        "b": "Aux messages de plans de vol déposés et aux messages de retard ;",
+        "c": "aux messages de plans de vol, de coordination et de transfert, d’information de vol et d’urgence ;",
+        "d": "Aux messages de plans de vol déposés, aux messages de retard et aux messages d’estimées."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 80,
+      "question": "Quelles sont les fenêtres ouvertes en permanence sur votre poste de travail?",
+      "options": {
+        "a": "la fenêtre d’information générale (GIW) & barre des commandes (CL) ;",
+        "b": "des fenêtres particulières prédéfinies comme étant permanentes ;",
+        "c": "la fenêtre d’information générale (GIW), Affichage de la situation aérienne (ASD) & Barre des commandes (CL) ;",
+        "d": "des fenêtres particulières sélectionnées par le superviseur."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 81,
+      "question": "Le contrôleur reçoit un signal de détresse :",
+      "options": {
+        "a": "il déclenche la DETRESFA 30 mn après le signal ;",
+        "b": "il déclenche immédiatement l’ALERFA ;",
+        "c": "il déclenche immédiatement la DETRESFA ;",
+        "d": "il déclenche immédiatement l’INCERFA."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 82,
+      "question": "La distance DME fournit au pilote par le récepteur de bord est :",
+      "options": {
+        "a": "la distance verticale avion/sol ;",
+        "b": "la distance horizontale de la station à la projection verticale de l’avion ;",
+        "c": "la distance oblique station/avion ;",
+        "d": "la distance en nautiques de l’altitude de l’avion."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 83,
+      "question": "Quand vous ouvrez la fenêtre plan de vol (FPW), elle affiche :",
+      "options": {
+        "a": "un FDR dynamique (continuellement mis à jour) ;",
+        "b": "un “instantané” du FDR au moment où le FPW a été ouvert ;",
+        "c": "le FDR d’origine tel que crée par le système ;",
+        "d": "aucune des réponses précédentes."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 84,
+      "question": "Le XFL est affiché dans:",
+      "options": {
+        "a": "le strip électronique & l’étiquette piste ;",
+        "b": "l’étiquette piste & la fenêtre plan de vol ;",
+        "c": "le strip électronique, l’étiquette piste & la fenêtre plan de vol ;",
+        "d": "aucune des réponses précédentes"
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 85,
+      "question": "Combien de contrats ADS-C périodiques peuvent être établis avec un aéronef?",
+      "options": {
+        "a": "cinq (5) au maximum ;",
+        "b": "le nombre est déterminé par le contrôleur ;",
+        "c": "un(1) seul ;",
+        "d": "le nombre de contrats est préprogrammé."
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 86,
+      "question": "Un contrat ADS-C à la demande fournit :",
+      "options": {
+        "a": "un seul compte rendu ;",
+        "b": "le nombre de comptes rendus spécifiés par la demande ;",
+        "c": "des comptes rendus à intervalles réguliers fixés par la station au sol ;",
+        "d": "un compte rendu quand ou si des évènements spécifiés se produisent."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 87,
+      "question": "Le 1er altimètre d’un aéronef est calé sur 1005 hPa QNH et indique 2800 pieds ; le 2ème altimètre au calage standard indique :",
+      "options": {
+        "a": "2520 pieds ;",
+        "b": "3024 pieds ;",
+        "c": "450 pieds ;",
+        "d": "FL040."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 88,
+      "question": "L’altitude de franchissement d’obstacles (OCA) :",
+      "options": {
+        "a": "altitude la plus basse au-dessus de l’obstacle le plus élevé situé à côté de la piste, utilisée pour respecter les critères de franchissement d’obstacles ;",
+        "b": "altitude la plus basse au-dessus du seuil de piste en cause ou au-dessus de l’aérodrome utilisée pour respecter les critères de franchissement d’obstacles ;",
+        "c": "altitude la plus basse au-dessus de l’obstacle le plus élevé situé au QFU opposé de la piste en service, utilisée pour respecter les critères de franchissement d’obstacles ;",
+        "d": "altitude la plus basse au-dessus du seuil de piste opposé ou au-dessus de l’aérodrome utilisée pour respecter les critères de franchissement d’obstacles."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 89,
+      "question": "Qu’est-ce qu’indique un symbole ADS triangulaire vide?",
+      "options": {
+        "a": "un compte rendu de position ADS de haute qualité (high FOM) ;",
+        "b": "un compte rendu de position ADS ;",
+        "c": "une position ADS extrapolée ;",
+        "d": "un compte rendu de position ADS de faible qualité (low FOM)."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 90,
+      "question": "Dans une case de strip, quand la clairance est entourée dans la section CLAIRANCE, cela signifie que :",
+      "options": {
+        "a": "La clairance a été transmise à l’aéronef ;",
+        "b": "la clairance a été renouvelée ;",
+        "c": "la clairance a été communiquée directement au pilote ;",
+        "d": "La clairance a été transmise à l’organisme suivant."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 91,
+      "question": "Dans la fenêtre des messages CPDLC courants, Quelle est la couleur d’un message montant qui exige une réponse pilote ?",
+      "options": {
+        "a": "noire ;",
+        "b": "vert foncée ;",
+        "c": "cyan ;",
+        "d": "bleue foncée."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 92,
+      "question": "Que signifie un + affiché dans l’étiquette piste ?",
+      "options": {
+        "a": "connexion CPDLC avec l’aéronef en tant que « Next Data Authority » ;",
+        "b": "connexion ADS avec l’aéronef en tant que « Next Data Authority »;",
+        "c": "connexion CPDLC avec l’aéronef en tant que « Current Data Authority » ;",
+        "d": "aucune des réponses précédentes."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 93,
+      "question": "Les limites des catégories de turbulence de sillage sont :",
+      "options": {
+        "a": "Faible tonnage : moins de 7,5 tonnes Moyen : de 7,5 tonnes à 136 tonnes Gros porteur : plus de 136 tonnes ;",
+        "b": "Faible tonnage : moins de 7,5 tonnes Moyen : de 7,5 tonnes à 100 tonnes Gros porteur : plus de 100 tonnes ;",
+        "c": "Faible tonnage : moins de 7 tonnes Moyen tonnage : de 7 tonnes à 136 tonnes Gros porteur : plus de 136 tonnes ;",
+        "d": "Faible tonnage : moins de 7 tonnes Moyen : de 7 tonnes à 100 tonnes Gros porteur : plus de 100 tonnes."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 94,
+      "question": "Quand la fonction AGDL tombe en panne, la fenêtre GIW affiche",
+      "options": {
+        "a": "DEGD dans les champs système et position” ;",
+        "b": "NORM dans le champ système et LOW dans le champ position ;",
+        "c": "DEGD dans le champ système et LOW dans le champ position ;",
+        "d": "NORM dans le champ système et DEGD dans le champ position."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 95,
+      "question": "Dans l’espace aérien Topsky, les limites de votre Région d’Information de vol(FIR) devraient être les mêmes que:",
+      "options": {
+        "a": "Flight Plan System Area (FPSA);",
+        "b": "Flight Data Region (FDRG);",
+        "c": "Flight Plan Extended Area (FPEA);",
+        "d": "aucune des réponses précédentes."
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 96,
+      "question": "Cap :",
+      "options": {
+        "a": "Route suivie par un aéronef pour s'éloigner d'une station ;",
+        "b": "Orientation de l’axe longitudinal de l’avion, généralement exprimé en degré par rapport au nord ;",
+        "c": "Route suivi par un aéronef, pour rejoindre une station ;",
+        "d": "Direction vers laquelle se dirige un aéronef"
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 97,
+      "question": "A travers les services de circulation aérienne rendus, un centre de contrôle régional assure les fonctions suivantes :",
+      "options": {
+        "e": "abordage et Régulation ;",
+        "f": "abordage, régulation, alerte et information ;",
+        "g": "collision, abordage, régulation, alerte et information ;",
+        "h": "alerte et Information ;"
+      },
+      "reponse_correcte": "f"
+    },
+    {
+      "id": 98,
+      "question": "Où commence le traitement d’un FDR crée à partir d’un AFIL de traitement automatique des plans de vol, le terme « ADES » désigne :",
+      "options": {
+        "a": "à un aérodrome de départ fictif situé au centre du FDRG ;",
+        "b": "au premier point de la route défini dans le plan de vol;",
+        "c": "les FDR AFIL ne sont pas traités par le système ;",
+        "d": "à une position basée sur l’heure de création du FDR."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 99,
+      "question": "Qu’est-ce que le GRF ? Quels sont ses avantages ?",
+      "options": {
+        "a": "Le GRF (General Report Function) est la méthode harmonisée à l’échelle mondiale...",
+        "b": "Le GRF (Global Reporting Format - Compte rendu mondial sur l’état de la surface des pistes) est la méthodologie harmonisée à l’échelle mondiale par l’OACI, pour l’évaluation et la communication de l’état de surface des pistes. Les Avantages sont : Améliorer la sécurité (meilleure prise en compte de l'état des pistes; moins de sorties de piste), améliorer l’efficacité (meilleure conscience de la situation, meilleure prise de décision et moins de fermetures de piste) et réduire l’impact sur l’environnement (moins de sorties de piste, meilleure gestion du trafic et meilleure gestion des produits de dégivrage).",
+        "c": "Le GRF (Global Reporting Formation) est la méthodologie généralisée à l’échelle mondiale par l’OMM...",
+        "d": "Le GRF (Ground Reporting Format) est la maniére harmonisée à l’échelle de la région ASECNA..."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 100,
+      "question": "Quelle est la responsabilité de l’ATC avec la mise en œuvre du GRF?",
+      "options": {
+        "a": "La responsabilité de l’ATC est de transmettre les informations reçues dans le RCR et l’ ATIS ;",
+        "b": "La responsabilité de l’ATC est de transmettre les informations reçues dans le RCR et/ou les rapports spéciaux (AIREP) aux utilisateurs finaux (communications vocales, ATIS, CPDLC).",
+        "c": "La responsabilité de l’ATC est de transmettre les informations reçues dans le RCR et/ou les rapports spéciaux (AIREP) aux utilisateurs finaux (communications vocales, ATIS, CPDLC).",
+        "d": "La responsabilité de l’ATC est de recevoir les informations issues des RCR et/ou des rapports spéciaux (AIREP) des utilisateurs finaux."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 101,
+      "question": "Dans une case de strip, quand l’heure est soulignée, cela signifie que :",
+      "options": {
+        "a": "L’évènement considéré se produira à cette heure-là ;",
+        "b": "L’événement considéré s’est produit à cette heure-là ;",
+        "c": "L’évènement considéré est prévu à cette heure-là ;",
+        "d": "L’évènement considéré est en cours depuis cette heure-là."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 102,
+      "question": "Dans un espace aérien de classe G :",
+      "options": {
+        "a": "aucun vol non contrôlé n’est admis ;",
+        "b": "sont admis les vols IFR et VFR ;",
+        "c": "ne sont admis que les vols IFR ;",
+        "d": "ne sont admis que les vols VFR."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 103,
+      "question": "Un aéronef homologué RVSM au FL330 évolue en espace aérien RVSM sur les tronçons de route AB (Rm 170°), BC (Rm 215°) et CD (Rm 265°). A partir de quel point doit-il monter ou descendre à un FL pair ?",
+      "options": {
+        "e": "au point C ;",
+        "f": "sur le tronçon AB ;",
+        "g": "au point B ;",
+        "h": "ne peut pas changer de niveau."
+      },
+      "reponse_correcte": "g"
+    },
+    {
+      "id": 104,
+      "question": "La clairance initiale d’arrivée doit comprendre entre autres :",
+      "options": {
+        "a": "l’altitude de l’aérodrome d’arrivée ;",
+        "b": "l’altitude minimale de secteur ;",
+        "c": "la piste en service et la procédure d’arrivée prévue ;",
+        "d": "la piste en service et les procédures disponibles."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 105,
+      "question": "Le VOR fonctionne dans la gamme de fréquences :",
+      "options": {
+        "a": "UHF;",
+        "b": "MF;",
+        "c": "VHF;",
+        "d": "SHF"
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 106,
+      "question": "La distance DME fournit au pilote par le récepteur de bord est :",
+      "options": {
+        "e": "la distance oblique station/avion ;",
+        "f": "la distance verticale avion/sol ;",
+        "g": "la distance horizontale de la station à la projection verticale de l’avion ;",
+        "h": "la distance en nautiques de l’altitude de l’avion."
+      },
+      "reponse_correcte": "e"
+    },
+    {
+      "id": 107,
+      "question": "La distance GNSS fournit au pilote par le récepteur de bord est :",
+      "options": {
+        "e": "la distance oblique station/avion ;",
+        "f": "la distance verticale avion/sol ;",
+        "g": "la distance sol (horizontale) de la station à la projection verticale de l’avion ;",
+        "h": "la distance en nautiques de l’altitude de l’avion."
+      },
+      "reponse_correcte": "g"
+    },
+    {
+      "id": 108,
+      "question": "Dans la zone ASECNA, la nuit aéronautique :",
+      "options": {
+        "a": "commence 15 mn avant le coucher du soleil et finit 15mn après le lever du soleil ;",
+        "b": "commence 15 mn avant le coucher du soleil et finit 15mn avant le lever du soleil ;",
+        "c": "période du jour allant de 15 mn après le coucher du soleil à 15mn avant le lever du soleil;",
+        "d": "période de la journée allant de 15 mn après le coucher du soleil à 15mn après le lever du soleil."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 109,
+      "question": "Les TMAs à l’ASECNA sont des espaces aériens :",
+      "options": {
+        "i": "non contrôlés ;",
+        "j": "de classe D ;",
+        "k": "de classe A",
+        "l": "à service consultatif."
+      },
+      "reponse_correcte": "j"
+    },
+    {
+      "id": 110,
+      "question": "Un aérodrome contrôlé est un aérodrome où le service :",
+      "options": {
+        "a": "du contrôle de la circulation aérienne est assuré au bénéfice des aéronefs évoluant dans la zone de contrôle (CTR) ;",
+        "b": "du contrôle de la circulation aérienne est assuré au bénéfice de la circulation d'aérodrome ;",
+        "c": "d’information de vol est assuré au bénéfice de la circulation aérienne ;",
+        "d": "du contrôle sol est assuré au bénéfice des aéronefs en IFR et en VFR."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 111,
+      "question": "Le centre de contrôle régional est l'organisme de la circulation aérienne chargé d'assurer la fourniture :",
+      "options": {
+        "a": "des services de la CA au bénéfice des aéronefs évoluant dans les régions de contrôle relevant de son autorité ;",
+        "b": "des services de contrôle, d'information et d'alerte au profit des vols IFR et VFR dans la TMA et la CTR ;",
+        "c": "Uniquement des services d'information et d'alerte au profit des vols non contrôlés ;",
+        "d": "des services d'information et d'alerte au profit des vols non contrôlés dans les espaces de classe F et G"
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 112,
+      "question": "L’altitude d’un aérodrome est définie par :",
+      "options": {
+        "a": "l'altitude du point le plus élevé de l’aérodrome ;",
+        "b": "l’altitude du point le plus élevé de la piste AMV ;",
+        "c": "l’altitude du point la plus élevée de l’aire d’atterrissage ;",
+        "d": "l’altitude à laquelle ou au-dessous de laquelle la position est exprimée en altitude."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 113,
+      "question": "En atmosphère standard, la température au niveau moyen de la mer est de :",
+      "options": {
+        "a": "20°C ;",
+        "b": "0°C ;",
+        "c": "15°C ;",
+        "d": "100°C."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 114,
+      "question": "Deux avions volant selon les règles de vol IFR et évoluant entre les niveaux de vol F180 et F260 sont séparés lorsqu'il y a entre eux une distance verticale d'au moins :",
+      "options": {
+        "a": "1000 ft ;",
+        "b": "500 ft ;",
+        "c": "2000 ft ;",
+        "d": "dépend de l’homologation RVSM ou non."
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 115,
+      "question": "Deux avions homologués RVSM volant selon les règles de vol IFR et évoluant entre les niveaux de vol F290 et F360 dans un espace aérien RVSM, sont séparés lorsqu'il y a entre eux une distance verticale d'au moins :",
+      "options": {
+        "a": "1500 ft ;",
+        "b": "2000 ft ;",
+        "c": "1000 ft ;",
+        "d": "300 ft."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 116,
+      "question": "Deux avions homologués RVSM volant selon les règles de vol IFR, même route, même sens et évoluant dans un espace aérien RVSM, sont séparés lorsqu'il y a entre eux une distance verticale d'au moins :",
+      "options": {
+        "a": "1500 ft ;",
+        "b": "2000 ft ;",
+        "c": "1000 ft ;",
+        "d": "300 ft."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 117,
+      "question": "Selon les règles de vol IFR, deux aéronefs même route, même sens et évoluant au-dessus du niveau de vol F410, sont séparés lorsqu'il y a entre eux une distance verticale d'au moins :",
+      "options": {
+        "a": "1500 ft ;",
+        "b": "2000 ft ;",
+        "c": "4000 ft ;",
+        "d": "3000 ft."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 118,
+      "question": "Dans la région AFI, l’espace aérien inférieur s’étend :",
+      "options": {
+        "a": "du sol au FL145",
+        "b": "de 900 m/sol au FL195;",
+        "c": "de 900 m/sol au FL245;",
+        "d": "du sol au FL245."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 119,
+      "question": "En atmosphère standard, la pression diminue de 1hPa quand on s’élève de :",
+      "options": {
+        "a": "28 mètres ;",
+        "b": "28 pouces ;",
+        "c": "10 mètres ;",
+        "d": "28 pieds."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 120,
+      "question": "Un signal d’urgence se définit comme un :",
+      "options": {
+        "e": "Signal signifiant que la station appelante a un message très urgent à transmettre concernant la sécurité d'un aéronef.",
+        "f": "Signal émanant d'un aéronef et indiquant que ce dernier est sous la menace d'un détournement violent ;",
+        "g": "Signal émanant d'un aéronef et indiquant que ce dernier est sous la menace d'un danger grave et imminent et demande une assistance immédiate ;",
+        "h": "Signal signifiant qu’un aéronef a un message très urgent à transmettre concernant sa sécurité ;"
+      },
+      "reponse_correcte": "h"
+    },
+    {
+      "id": 121,
+      "question": "Le 1er altimètre d’un aéronef est calé sur 1005 hPa QNH et indique 2800 pieds ; le 2ème altimètre au calage standard indiquera :",
+      "options": {
+        "a": "2520 pieds ;",
+        "b": "3024 pieds ;",
+        "c": "450 pieds ;",
+        "d": "FL040."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 122,
+      "question": "Un avion est autorisé au FL120 dès le décollage d’un aérodrome où l’altitude de transition est de 4000 pieds, il doit passer du calage QNH au calage standard en croisant :",
+      "options": {
+        "a": "3900 pieds QNH ;",
+        "b": "4100 pieds QNH ;",
+        "c": "2500 pieds QNH ;",
+        "d": "4000 pieds QNH."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 123,
+      "question": "Un centre de contrôle régional rend exclusivement les services de circulation aérienne suivants :",
+      "options": {
+        "a": "Le service de contrôle régional ;",
+        "b": "Les services de contrôle régional et de contrôle d’approche ;",
+        "c": "Les services de contrôle régional, de contrôle d’approche, d’alerte et d’information ;",
+        "d": "Les services de contrôle régional, de contrôle d’approche et de contrôle d’aérodrome."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 124,
+      "question": "Dans une case de strip, quand l’heure est entourée, cela signifie :",
+      "options": {
+        "a": "L’heure de passage du point d’entrée de l’espace aérien ;",
+        "b": "L’heure de passage du point de transfert transmise à l’organisme suivant ;",
+        "c": "L’heure de passage des points de compte-rendu ;",
+        "d": "L’heure de passage du point de transfert à l’organisme suivant."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 125,
+      "question": "L’altitude de franchissement d’obstacles (OCA) :",
+      "options": {
+        "a": "altitude la plus basse au-dessus de l’obstacle le plus élevé situé à côté de la piste, utilisée pour respecter les critères de franchissement d’obstacles ;",
+        "b": "altitude la plus basse au-dessus de l’obstacle le plus élevé situé au QFU opposé de la piste en service, utilisée pour respecter les critères de franchissement d’obstacles ;",
+        "c": "altitude la plus basse au-dessus du seuil de piste en cause ou au-dessus de l’aérodrome utilisée pour respecter les critères de franchissement d’obstacles ;",
+        "d": "altitude la plus basse au-dessous de l’obstacle le plus élevé situé à côté de la piste, utilisée pour respecter les critères de franchissement d’obstacles ;"
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 126,
+      "question": "Deux avions homologués RVSM volant selon les règles de vol IFR et évoluant entre les niveaux de vol F290 et F410, même route et sens opposés, sont séparés lorsqu'il y a entre eux une distance verticale d'au moins :",
+      "options": {
+        "a": "1000 ft ;",
+        "b": "1500 ft ;",
+        "c": "2000 ft ;",
+        "d": "3000 ft."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 127,
+      "question": "Deux avions se suivent au départ et leurs routes sont divergentes d’au moins 45° aussitôt après décollage. Le 1er décolle à 16h35, le 2ème décollera au plus tôt à :",
+      "options": {
+        "e": "16h36",
+        "f": "16h37",
+        "g": "16h40",
+        "h": "16h45"
+      },
+      "reponse_correcte": "e"
+    },
+    {
+      "id": 128,
+      "question": "Un aéronef doit croiser le niveau de vol d'un autre en croisière qui le précède au départ et les deux aéronefs suivent la même route. L'espacement entre eux sera au moins de :",
+      "options": {
+        "e": "5 mn au moment où le 2ème croise le niveau de croisière du 1er.",
+        "f": "5 mn tant qu’il n’y aura pas d’espacement vertical.",
+        "g": "10 mn tant qu’il n’y aura pas d’espacement vertical.",
+        "h": "10 mn au moment où le 2ème croise le niveau de croisière du 1er."
+      },
+      "reponse_correcte": "f"
+    },
+    {
+      "id": 129,
+      "question": "Deux aéronefs au départ sont en montée en taux réglés. Une telle autorisation n'est possible que si :",
+      "options": {
+        "a": "les pilotes des deux aéronefs sont sur la même fréquence,",
+        "b": "les deux aéronefs adoptent les mêmes vitesses de montée",
+        "c": "l’espacement vertical est d’au moins 2000 pieds",
+        "d": "les deux aéronefs sont sur la même route magnétique."
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 130,
+      "question": "L’image ci-contre, extraite d’un strip (flèche barrant FL350 vers 310 avec mention 46), a les significations suivantes :",
+      "options": {
+        "m": "L’aéronef arrive au FL350 à 46;",
+        "n": "L’aéronef stabilise au FL350 à 46 ;",
+        "o": "L’aéronef quitte le FL350 pour le FL310 à 46;",
+        "p": "L’aéronef passe le FL350 pour le FL310 à 46."
+      },
+      "reponse_correcte": "o"
+    },
+    {
+      "id": 131,
+      "question": "Les deux avions A1 et A2 se sont croisés. A quelle distance du point de croisement A1 peut croiser le niveau de vol de A2 ?",
+      "options": {
+        "a": "15 NM",
+        "b": "10 NM",
+        "c": "20 NM",
+        "d": "5 NM"
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 132,
+      "question": "Une phase d’alerte est désignée par l’expression conventionnelle :",
+      "options": {
+        "a": "DETRESFA",
+        "b": "ALERFA",
+        "c": "INCERFA",
+        "d": "EVASAN"
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 133,
+      "question": "Un aérodrome AFIS est un aérodrome :",
+      "options": {
+        "a": "Non doté d’une CTR",
+        "b": "doté d’au moins une tour de contrôle",
+        "c": "où n’est assuré que le service d’information au bénéfice des aéronefs en circulation d’aérodrome.",
+        "d": "Non doté de procédures d’approche aux instruments."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 134,
+      "question": "Les formats de strips utilisés à l’ASECNA sont de deux sortes, qui sont :",
+      "options": {
+        "a": "ENR et APP ;",
+        "b": "APP et TWR ;",
+        "c": "ENR et TWR.",
+        "d": "ACC et TMA ;"
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 135,
+      "question": "La case 15 du plan de vol OACI doit contenir :",
+      "options": {
+        "a": "la première vitesse de croisière, le premier niveau de croisière et la route.",
+        "b": "l'aérodrome de départ, l’aérodrome d’arrivée, l’heure estimée d’arrivée.",
+        "c": "la route ATS, les points de compte-rendu et le nombre de Mach.",
+        "d": "La catégorie de turbulence de sillage, le type d’aéronef et le régime de vol."
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 136,
+      "question": "Dans une case de strip, quand la clairance est barrée dans la section CLAIRANCE, cela signifie que :",
+      "options": {
+        "a": "La clairance a été transmise à l’aéronef ;",
+        "b": "la clairance a été renouvelée ;",
+        "c": "La clairance a été transmise à l’organisme suivant ;",
+        "d": "la clairance a été annulée."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 137,
+      "question": "Les renseignements complémentaires du plan de vol OACI doivent être mentionnées dans :",
+      "options": {
+        "a": "la case 18 ;",
+        "b": "la case 20 ;",
+        "c": "la case 19 ;",
+        "d": "la case 3."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 138,
+      "question": "Deux aéronefs au départ doivent suivre la même route pour le même niveau de vol. Le 1er avion décolle à 20h32 pour une vitesse 280 Kt, le 2ème, a une vitesse 220 Kt, décollera au plus tôt à :",
+      "options": {
+        "a": "20h33",
+        "b": "20h34",
+        "c": "20h37",
+        "d": "20h42"
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 139,
+      "question": "Le message « UNABLE RVSM DUE TURBULENCE » émis par un pilote, signifie que :",
+      "options": {
+        "a": "L’aéronef rencontre des turbulences qui risquent d’altérer ses capacités à se maintenir à son CFL et qu’il ne peut plus respecter la RNP dans le plan horizontal pour opérer dans l’espace aérien RVSM ;",
+        "b": "L’aéronef rencontre des turbulences qui risquent d’altérer ses capacités à se maintenir à son FL et qu’il ne peut plus respecter la RNP dans le plan vertical pour opérer dans l’espace aérien RVSM ;",
+        "c": "L’aéronef n’est pas homologué RVSM ;",
+        "d": "L’aéronef demande un traitement d’urgence."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 140,
+      "question": "Dans un espace aérien de classe A deux aéronefs T1 et T2 se suivent sur la même route et au même niveau de vol. Quel est le minimum de séparation longitudinale en temps applicable entre T1 et T2 à l’ASECNA ?",
+      "options": {
+        "a": "15 minutes",
+        "b": "5 minutes",
+        "c": "3 minutes",
+        "d": "10 minutes"
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 141,
+      "question": "Dans un espace aérien de classe A deux aéronefs T1 et T2 se suivent sur la même route et au même niveau de vol. T1 affiche une vitesse de croisière de 420 Kt et T2 une vitesse de croisière de 360 Kt. Quel est le minimum de séparation longitudinale en temps applicable entre T1 et T2 à l’ASECNA ?",
+      "options": {
+        "a": "3 minutes",
+        "b": "15 minutes",
+        "c": "5 minutes",
+        "d": "10 minutes"
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 142,
+      "question": "Un A319 et un B738 suivent la même route en sens inverse. Ils estiment le même point de compte-rendu CR respectivement à 08h42 et 08h54. Quelle est l’heure de croisement ?",
+      "options": {
+        "a": "08h43mn ;",
+        "b": "08h48mn ;",
+        "c": "08h45mn ;",
+        "d": "08h50mn."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 143,
+      "question": "A 08h41, le A319 demande à libérer le FL290 pour le FL330. Le B738 est stable au FL310. A quelle heure le A319 pourra-t-il monter au niveau de vol demandé ?",
+      "options": {
+        "a": "08h53mn ;",
+        "b": "08h55mn ;",
+        "c": "08h58mn ;",
+        "d": "09h00mn."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 144,
+      "question": "Le QDR est :",
+      "options": {
+        "a": "le relèvement magnétique de l’avion par la station",
+        "b": "le cap magnétique à suivre pour s’éloigner de la station",
+        "c": "le relèvement de la station par l’avion",
+        "d": "la route magnétique de l’avion."
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 145,
+      "question": "La case 16 du plan de vol OACI doit contenir : La catégorie de turbulence de sillage, le type d’aéronef et le régime de vol.",
+      "options": {
+        "a": "l'aérodrome de destination, et aérodromes de dégagement.",
+        "b": "la route ATS, les points de compte-rendu et le nombre de Mach.",
+        "c": "l'aérodrome de destination, durée totale estimée et les aérodromes de dégagement."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 146,
+      "question": "Deux aéronefs C1 et C2 se suivent sur la même route et au même niveau de vol. Ils utilisent la même station DME située sur leur route. C1 affiche une vitesse de croisière de 420 Kt et C2 360 Kt. Quel est l’espacement longitudinal minimum entre eux ?",
+      "options": {
+        "e": "15 NM",
+        "f": "20 NM",
+        "g": "5 NM",
+        "h": "10 NM"
+      },
+      "reponse_correcte": "h"
+    },
+    {
+      "id": 147,
+      "question": "Après la délivrance d’une autorisation de décollage ou d’atterrissage, si le Contrôleur CA s’aperçoit d’une incursion sur piste... il doit :",
+      "options": {
+        "q": "Annuler l’autorisation de décollage ou instruire l’aéronef à l’atterrissage à remettre les gaz ou à effectuer une approche interrompue ; dans tous les cas, informer les aéronefs de l’incursion sur piste ou de l’obstruction et de sa situation sur la piste.",
+        "r": "Uniquement permettre aux vols VFR de poursuivre leur mouvement...",
+        "s": "Pour les vols IFR et VFR de les garder en visuel...",
+        "t": "Donner l’information aux aéronefs de l’incursion sur piste... C’est aux commandants de bord de décider de la conduite à tenir"
+      },
+      "reponse_correcte": "q"
+    },
+    {
+      "id": 148,
+      "question": "Dans une case de strip, quand l’heure est barrée, cela signifie que :",
+      "options": {
+        "a": "l’événement s’est produit exactement à cette heure-là ;",
+        "b": "l’événement ne s’est pas produit à cette heure-là ;",
+        "c": "l’événement s’est produit exactement à cette heure-là;",
+        "d": "l’événement se produira exactement à cette heure-là."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 149,
+      "question": "Dans une case de strip, quand la clairance est entourée dans la section CLAIRANCE, cela signifie que :",
+      "options": {
+        "e": "La clairance a été transmise à l’aéronef ;",
+        "f": "La clairance a été transmise à l’organisme suivant ;",
+        "g": "la clairance a été renouvelée ;",
+        "h": "la clairance a été communiquée directement au pilote."
+      },
+      "reponse_correcte": "h"
+    },
+    {
+      "id": 150,
+      "question": "Une phase de détresse (DETRESFA)) est :",
+      "options": {
+        "a": "Une Situation dans laquelle on peut craindre pour la sécurité d'un aéronef et de ses occupants. ;",
+        "b": "Une Situation dans laquelle y il a tout lieu de penser qu'un aéronef et ses occupants sont menacés d'un danger grave et imminent et qu'ils ont besoin d'un secours immédiat ;"
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 151,
+      "question": "Les informations de trafics conflictuels en contrôle aux procédures, contiennent les renseignements suivants :",
+      "options": {
+        "a": "Indicatif et type d’appareil et niveau de vol;",
+        "b": "Indicatif, code horaire, route suivie et altitude;",
+        "c": "Indicatif, route suivie, type d’appareil et niveau de vol ;",
+        "d": "Indicatif, distance, direction, type d’appareil et altitude relative."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 152,
+      "question": "Parmi les moyens d’atterrissage suivants, un seul n’est pas homologué par l’OACI, lequel ?",
+      "options": {
+        "b": "Le GNSS ;",
+        "c": "Le PAPI ;",
+        "d": "Localizer ;",
+        "e": "Le Glide."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 153,
+      "question": "Les organismes faisant partie du contrôle local sont :",
+      "options": {
+        "a": "La tour de contrôle et le bureau de piste ;",
+        "b": "La tour de contrôle et le bureau du contrôle d’approche ;",
+        "c": "La tour de contrôle, le bureau du contrôle d’approche et le bureau de piste ;",
+        "d": "Le centre de contrôle régional et le bureau du contrôle d’approche."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 154,
+      "question": "En atmosphère standard, la pression au niveau de la mer est :",
+      "options": {
+        "u": "760 HP",
+        "v": "1013,25 HP",
+        "w": "QDM",
+        "x": "égale au QNH"
+      },
+      "reponse_correcte": "v"
+    },
+    {
+      "id": 155,
+      "question": "La norme minimale de séparation longitudinale en espace aérien contrôlé aux procédures sans rapport avec les vitesses des aéronefs, est de :",
+      "options": {
+        "y": "10 minutes ;",
+        "z": "5 minutes;",
+        "aa": "15 minutes ;",
+        "bb": "20 minutes."
+      },
+      "reponse_correcte": "aa"
+    },
+    {
+      "id": 156,
+      "question": "Les limites des catégories de turbulence de sillage sont :",
+      "options": {
+        "a": "Faible tonnage : moins de 7,5 tonnes Moyen : de 7,5 tonnes à 136 tonnes Gros porteur : plus de 136 tonnes ;",
+        "b": "Faible tonnage : moins de 7,5 tonnes Moyen : de 7,5 tonnes à 100 tonnes Gros porteur : plus de 100 tonnes ;",
+        "c": "Faible tonnage : moins de 7 tonnes Moyen tonnage : de 7 tonnes à 136 tonnes Gros porteur : plus de 136 tonnes ;",
+        "d": "Faible tonnage : moins de 7 tonnes Moyen : de 7 tonnes à 100 tonnes Gros porteur : plus de 100 tonnes"
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 157,
+      "question": "Un aéronef arrive sur la balise d’attente au QDM 130. Le circuit d’attente est orienté au 270° magnétique, virage à droite. Quel type d’entrée dans l’attente devra-t-il effectuer:",
+      "options": {
+        "a": "une entrée parallèle ;",
+        "b": "une entrée directe ;",
+        "c": "une entrée décalée ;",
+        "d": "une entrée inverse."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 158,
+      "question": "Une phase d’incertitude (INCERFA) est :",
+      "options": {
+        "a": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef et ses occupants sont menacés d'un danger grave et imminent et qu'ils ont besoin d'un secours immédiat;",
+        "b": "Situation dans laquelle on peut craindre pour la sécurité d'un aéronef et de ses occupants ;",
+        "c": "Situation dans laquelle y il a tout lieu de penser qu'un aéronef est en danger ;",
+        "d": "Situation dans laquelle il y a lieu de douter de la sécurité d'un aéronef et de ses occupants."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 159,
+      "question": "Les marques de balisage diurne sur la piste sont de couleur :",
+      "options": {
+        "a": "Jaune",
+        "b": "Blanche",
+        "c": "Bleue",
+        "d": "Dépend de la catégorie d’aérodrome"
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 160,
+      "question": "Le METAR est un message :",
+      "options": {
+        "a": "D’observation aéronautique régulière",
+        "b": "De prévision",
+        "c": "D’observation spéciale",
+        "d": "D’observation sur demande"
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 161,
+      "question": "Qu’est-ce que le GRF ? Quels sont ses avantages ?",
+      "options": {
+        "a": "Le GRF (General Report Function) est la méthode harmonisée à l’échelle mondiale...",
+        "b": "Le GRF (Global Reporting Format - Compte rendu mondial sur l’état de la surface des pistes) est la méthodologie harmonisée à l’échelle mondiale par l’OACI, pour l’évaluation et la communication de l’état de surface des pistes. Les Avantages sont : Améliorer la sécurité (meilleure prise en compte de l'état des pistes; moins de sorties de piste), améliorer l’efficacité (meilleure conscience de la situation, meilleure prise de décision et moins de fermetures de piste) et réduire l’impact sur l’environnement (moins de sorties de piste, meilleure gestion du trafic et meilleure gestion des produits de dégivrage).",
+        "c": "Le GRF (Global Reporting Formation) est la méthodologie généralisée à l’échelle mondiale par l’OMM...",
+        "d": "Le GRF (Ground Reporting Format) est la maniére harmonisée à l’échelle de la région ASECNA..."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 162,
+      "question": "Quelle est la responsabilité de l’ATC avec la mise en œuvre du GRF?",
+      "options": {
+        "a": "La responsabilité de l’ATC est de transmettre les informations reçues dans le RCR et l’ ATIS ;",
+        "b": "La responsabilité de l’ATC est de transmettre les informations reçues dans le RCR et/ou les rapports spéciaux (AIREP) aux utilisateurs finaux (communications vocales, ATIS, CPDLC).",
+        "c": "La responsabilité de l’ATC est de transmettre les informations reçues dans le RCR et/ou les rapports spéciaux (AIREP) aux utilisateurs finaux (communications vocales, ATIS, CPDLC).",
+        "d": "La responsabilité de l’ATC est de recevoir les informations issues des RCR et/ou des rapports spéciaux (AIREP) des utilisateurs finaux."
+      },
+      "reponse_correcte": "c"
+    },
+    {
+      "id": 163,
+      "question": "Le verrou de piste est :",
+      "options": {
+        "a": "Le point à partir duquel une clearance d’atterrissage est délivrée à un aéronef à l’arrivée",
+        "b": "Le point à partir duquel un aéronef à l’arrivée doit remettre les gaz s’il ne voit pas la piste",
+        "c": "Le point à partir duquel un aéronef au départ est autorisé à s’aligner",
+        "d": "Le point d’approche finale à partir duquel un aéronef au départ ou tout autre mobile ne peut plus être autorisé à pénétrer la piste."
+      },
+      "reponse_correcte": "d"
+    },
+    {
+      "id": 164,
+      "question": "Une approche à vue est une :",
+      "options": {
+        "a": "Approche effectuée par un aéronef en vol IFR qui n’exécute pas ou interrompt la procédure d'approche aux instruments et exécute l'approche par repérage visuel du sol.",
+        "b": "Approche effectuée par un aéronef en vol VFR...",
+        "c": "Approche effectuée par un aéronef en vol IMC...",
+        "d": "Descente effectuée par un aéronef en vol IFR..."
+      },
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 165,
+      "question": "Un départ normalisé aux instruments (SID) se définit comme :",
+      "options": {
+        "a": "Trajectoire désignée de départ conformément aux règles de vol à vue (VFR)...",
+        "b": "Route désignée de départ suivie conformément aux règles de vol aux instruments (IFR) reliant l’aérodrome ou une piste spécifiée de l’aérodrome à un point significatif spécifié, normalement situé sur une route ATS désignée, auquel commence la phase en route d’un vol.",
+        "c": "Route de départ suivie conformément à son régime de vol...",
+        "d": "Route désignée pour un départ quelconque indépendamment des aux règles de vol aux instruments (IFR)..."
+      },
+      "reponse_correcte": "b"
+    },
+    {
+      "id": 166,
+      "question": "Est défini comme étant une incursion sur piste :",
+      "options": {
+        "cc": "Toute situation se produisant sur un aérodrome, qui correspond à la présence inopportune d’un aéronef, d’un véhicule ou d’une personne dans l’aire protégée d’une surface destinée à l’atterrissage et au décollage d’aéronefs.",
+        "dd": "Toute situation ne se produisant pas forcément sur un aérodrome...",
+        "ee": "Tout évènement lié à la présence massive des ouvriers...",
+        "ff": "Toute situation se produisant sur un aérodrome, qui correspond à la présence des oiseaux..."
+      },
+      "reponse_correcte": "cc"
+    },
+    {
+      "id": 167,
+      "question": "Principes des facteurs humains :",
+      "options": {
+        "gg": "Principes qui ne s’appliquent pas à la conception...",
+        "hh": "Principes qui s’appliquent à la conception, à la certification, à la formation, aux opérations et à la maintenance aéronautiques et qui visent à assurer la sécurité de l’interface entre l’être humain et les autres composantes des systèmes par une prise en compte appropriée des performances humaines.",
+        "ii": "Principes qui ne s’appliquent qu’à la conception...",
+        "jj": "Principes de base qui s’appliquent à la la formation..."
+      },
+      "reponse_correcte": "hh"
+    },
+    {
+      "id": 168,
+      "question": "Les instructions du contrôle de la circulation aérienne sont :",
+      "options": {
+        "kk": "Des indications de direction données par le contrôleur...",
+        "ll": "Des instructions directoriales de l’encadrement...",
+        "mm": "Des directives données par le contrôle de la circulation aérienne demandant au pilote d’exécuter des manœuvres particulières.",
+        "nn": "Des directives données par le contrôle de la circulation aérienne demandant au pilote d’exécuter des manoeuvres particulières."
+      },
+      "reponse_correcte": "mm"
+    },
+    {
+      "id": 169,
+      "question": "Système de gestion du trafic aérien.",
+      "options": {
+        "ss": "Système assurant la gestion du trafic aérien (ATM) grâce à l’intégration concertée d’êtres humains, d’informations, de technologies, d’installations et de services en s’appuyant sur des moyens de communication, de navigation et de surveillance au sol, à bord et/ou dans l’espace.",
+        "tt": "Système n’assurant pas la gestion du trafic aérien...",
+        "uu": "Mécanisme de gestion du trafic aérien (ATM)..."
+      },
+      "reponse_correcte": "ss"
     }
   ]
 }
