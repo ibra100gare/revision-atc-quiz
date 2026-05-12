@@ -7788,7 +7788,7 @@
         "C": "Le manuel d’exploitation",
         "D": "Les lettres d’accord"
       },
-      "reponse_correcte": "C"
+      "reponse_correcte": "D"
     },
     {
       "id": 8,
@@ -7887,7 +7887,7 @@
         "C": "Tourner le deuxième pour mettre 15NM minimum entre les deux avions, ne pas hésiter à donner un cap important pour que la distance soit créée rapidement, faire monter ou descendre l’aéronef au niveau demandé et coordonner le TR au centre adjacent, s’assurer que les types avions sont compatibles.",
         "D": "Faire monter ou descendre l’aéronef au niveau demandé et coordonner le TR au centre adjacent, s’assurer que les types avions sont compatibles."
       },
-      "reponse_correcte": "B"
+      "reponse_correcte": "A"
     },
     {
       "id": 17,
@@ -7898,7 +7898,7 @@
         "C": "15 NM",
         "D": "20 NM"
       },
-      "reponse_correcte": "A"
+      "reponse_correcte": "B"
     },
     {
       "id": 18,
@@ -7931,7 +7931,7 @@
         "C": "La distance entre les deux avions lorsque l’avion A passe dans les 10h de l’avion B",
         "D": "La distance entre les deux avions lorsque l’avion B voit l’avion A dans ses 2h"
       },
-      "reponse_correcte": "A"
+      "reponse_correcte": "D"
     }
   ],
   "JANVIER_2023_ICA_PROCEDURES": [
